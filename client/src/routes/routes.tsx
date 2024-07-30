@@ -5,6 +5,9 @@ import {
 	Outlet,
 } from '@tanstack/react-router';
 import Home from '../pages/Home';
+import Login from '../pages/auth/Login';
+import Signup from '../pages/auth/SignUp';
+import Dashboard from '../pages/Dashboard';
 import Legislation from '../pages/Legislation';
 import PoliticianProfile from '../pages/PoliticianProfile';
 import NavigationContainer from '../components/global/navigation/NavigationContainer';
@@ -25,6 +28,24 @@ export const homeRoute = createRoute({
 	component: Home,
 });
 
+export const loginRoute = createRoute({
+	getParentRoute: () => rootRoute,
+	path: '/login',
+	component: Login,
+});
+
+export const signupRoute = createRoute({
+	getParentRoute: () => rootRoute,
+	path: '/signup',
+	component: Signup,
+});
+
+export const dashboardRoute = createRoute({
+	getParentRoute: () => rootRoute,
+	path: '/dashboard',
+	component: Dashboard,
+});
+
 export const legislationRoute = createRoute({
 	getParentRoute: () => rootRoute,
 	path: '/legislation',
@@ -39,6 +60,9 @@ export const politicianProfileRoute = createRoute({
 
 const routeTree = rootRoute.addChildren([
 	homeRoute,
+	loginRoute,
+	signupRoute,
+	dashboardRoute,
 	legislationRoute,
 	politicianProfileRoute,
 ]);

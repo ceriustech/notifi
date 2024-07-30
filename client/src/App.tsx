@@ -1,5 +1,5 @@
 import { RouterProvider } from '@tanstack/react-router';
-import { router } from './routes/routes.tsx';
+import { router } from './routes/index.tsx';
 import './App.css';
 
 const App: React.FC = () => {

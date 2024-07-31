@@ -2,13 +2,9 @@ import NavigationItem from '../NavigationItem';
 import { routes } from '../../../../routes/data/data';
 
 const NavigationContainer = () => {
-	const isAuthenticated = false; // replace with actual authentication check
+	const isAuthenticated = true; // replace with actual authentication check
 	const navigation = routes
-		.filter(
-			(route) =>
-				route.designation.authenticated === isAuthenticated ||
-				!route.designation.authenticated
-		)
+		.filter((route) => route.designation.authenticated === isAuthenticated)
 		.map((route) => (
 			<NavigationItem
 				key={route.path}

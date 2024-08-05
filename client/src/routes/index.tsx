@@ -5,7 +5,6 @@ import {
 	Outlet,
 } from '@tanstack/react-router';
 import Home from '../pages/public/Home';
-import Login from '../pages/public/auth/Login';
 
 import PrivateRoute from './PrivateRoute';
 import Dashboard from '../pages/private/Dashboard';
@@ -29,12 +28,6 @@ export const homeRoute = createRoute({
 	getParentRoute: () => rootRoute,
 	path: '/',
 	component: Home,
-});
-
-export const loginRoute = createRoute({
-	getParentRoute: () => rootRoute,
-	path: '/login',
-	component: Login,
 });
 
 // routes available to authenticated users
@@ -80,11 +73,7 @@ const privateRoutes = [
 	}),
 ];
 
-const routeTree = rootRoute.addChildren([
-	homeRoute,
-	loginRoute,
-	...privateRoutes,
-]);
+const routeTree = rootRoute.addChildren([homeRoute, ...privateRoutes]);
 
 export const router = createRouter({ routeTree });
 

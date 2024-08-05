@@ -10,19 +10,16 @@ export const routes = [
 		designation: {
 			authenticated: false,
 		},
-	},
-	{
-		id: 'login',
-		path: '/login',
-		routeName: 'Login',
-		component: {
-			type: 'button',
-			component: LoginButton,
-		},
-		exact: true,
-		designation: {
-			authenticated: false,
-		},
+		links: [
+			{ id: 'how-it-works', path: '#how-it-works', routeName: 'How it Works' },
+			{ id: 'faq', path: '#faq', routeName: 'FAQ' },
+			{
+				id: 'login',
+				path: '/login',
+				routeName: 'Login',
+				component: LoginButton,
+			},
+		],
 	},
 	{
 		id: 'logout',

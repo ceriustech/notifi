@@ -1,3 +1,6 @@
+import LoginButton from '../../components/global/auth/LoginButton';
+import LogoutButton from '../../components/global/auth/LogoutButton';
+
 export const routes = [
 	{
 		id: 'home',
@@ -12,18 +15,26 @@ export const routes = [
 		id: 'login',
 		path: '/login',
 		routeName: 'Login',
+		component: {
+			type: 'button',
+			component: LoginButton,
+		},
 		exact: true,
 		designation: {
 			authenticated: false,
 		},
 	},
 	{
-		id: 'signup',
-		path: '/signup',
-		routeName: 'Signup',
+		id: 'logout',
+		path: '/logout',
+		routeName: 'Logout',
+		component: {
+			type: 'button',
+			component: LogoutButton,
+		},
 		exact: true,
 		designation: {
-			authenticated: false,
+			authenticated: true,
 		},
 	},
 	{

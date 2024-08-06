@@ -1,7 +1,23 @@
+import { ComponentType } from 'react';
 import LoginButton from '../../components/global/auth/LoginButton';
 import LogoutButton from '../../components/global/auth/LogoutButton';
 
-export const routes = [
+export interface NavItem {
+	id: string;
+	path: string;
+	routeName: string;
+	component?: ComponentType;
+}
+
+export interface Route extends NavItem {
+	exact: boolean;
+	designation: {
+		authenticated: boolean;
+	};
+	links?: NavItem[];
+}
+
+export const routes: Route[] = [
 	{
 		id: 'home',
 		path: '/',
@@ -11,7 +27,7 @@ export const routes = [
 			authenticated: false,
 		},
 		links: [
-			{ id: 'how-it-works', path: '#how-it-works', routeName: 'How it Works' },
+			{ id: 'how it-works', path: '#how-it-works', routeName: 'How it Works' },
 			{ id: 'faq', path: '#faq', routeName: 'FAQ' },
 			{
 				id: 'login',
@@ -25,10 +41,7 @@ export const routes = [
 		id: 'logout',
 		path: '/logout',
 		routeName: 'Logout',
-		component: {
-			type: 'button',
-			component: LogoutButton,
-		},
+		component: LogoutButton,
 		exact: true,
 		designation: {
 			authenticated: true,

@@ -1,15 +1,24 @@
+import React from 'react';
 import { Link } from '@tanstack/react-router';
 
 interface NavigationItemProps {
 	path: string;
 	routeName: string;
-	children?: React.ReactNode;
+	component?: React.ComponentType;
 }
 
-const NavigationItem = ({ path, routeName, children }: NavigationItemProps) => {
+const NavigationItem = ({
+	path,
+	routeName,
+	component,
+}: NavigationItemProps) => {
 	return (
 		<li>
-			<Link to={path}>{routeName || children}</Link>
+			{component ? (
+				React.createElement(component)
+			) : (
+				<Link to={path}>{routeName}</Link>
+			)}
 		</li>
 	);
 };

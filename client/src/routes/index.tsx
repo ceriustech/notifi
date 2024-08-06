@@ -2,33 +2,27 @@ import {
 	createRouter,
 	createRootRoute,
 	createRoute,
-	Outlet,
 } from '@tanstack/react-router';
 import Home from '../pages/public/Home';
-
+import Layout from '../components/global/layout/Layout';
 import PrivateRoute from './PrivateRoute';
 import Dashboard from '../pages/private/Dashboard';
 import Legislation from '../pages/private/Legislation';
 import PoliticianProfile from '../pages/private/PoliticianProfile';
-import NavigationContainer from '../components/global/navigation/NavigationContainer';
 import UserProfile from '../pages/private/UserProfile';
 
 const rootRoute = createRootRoute({
-	component: () => (
-		<>
-			<NavigationContainer />
-			<hr />
-			<Outlet />
-		</>
-	),
+	component: Layout,
 });
 
 // routes available to non authenticated users
-export const homeRoute = createRoute({
-	getParentRoute: () => rootRoute,
-	path: '/',
-	component: Home,
-});
+const publicRoutes = [
+	createRoute({
+		getParentRoute: () => rootRoute,
+		path: '/',
+		component: Home,
+	}),
+];
 
 // routes available to authenticated users
 const privateRoutes = [
@@ -73,7 +67,7 @@ const privateRoutes = [
 	}),
 ];
 
-const routeTree = rootRoute.addChildren([homeRoute, ...privateRoutes]);
+const routeTree = rootRoute.addChildren([...publicRoutes, ...privateRoutes]);
 
 export const router = createRouter({ routeTree });
 

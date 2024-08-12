@@ -4,7 +4,7 @@ import {
 	createRoute,
 } from '@tanstack/react-router';
 import Home from '../pages/public/Home';
-import Layout from '../components/global/layout/Layout';
+import Layout from '../components/global/layout/';
 import PrivateRoute from './PrivateRoute';
 import Dashboard from '../pages/private/Dashboard';
 import Legislation from '../pages/private/Legislation';

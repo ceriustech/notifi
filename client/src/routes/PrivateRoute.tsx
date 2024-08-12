@@ -1,15 +1,14 @@
 import { Navigate } from '@tanstack/react-router';
+import { useAuth0 } from '@auth0/auth0-react';
 
 const PrivateRoute = ({ children }: { children: React.ReactNode }) => {
-	const isAuthenticated = false; // replace with actual authentication check
-	// const isLoading = false; // replace with actual loading check
+	const { isAuthenticated, isLoading } = useAuth0();
 
-	// will be used to check if user is authenticated
-	// if (!isLoading && !isAuthenticated) {
-	// 	<div>Loading...</div>;
-	// }
+	if (isLoading) {
+		return <div>Loading ...</div>;
+	}
 
-	return isAuthenticated ? <>{children}</> : <Navigate to="/" />;
+	return isAuthenticated ? <>{children}</> : <Navigate to="/dashboard" />;
 };
 
 export default PrivateRoute;

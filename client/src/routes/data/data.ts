@@ -1,6 +1,5 @@
 import { ComponentType } from 'react';
 import LoginButton from '../../components/global/auth/LoginButton';
-import LogoutButton from '../../components/global/auth/LogoutButton';
 
 export interface NavItem {
 	id: string;
@@ -36,16 +35,6 @@ export const routes: Route[] = [
 				component: LoginButton,
 			},
 		],
-	},
-	{
-		id: 'logout',
-		path: '/logout',
-		routeName: 'Logout',
-		component: LogoutButton,
-		exact: true,
-		designation: {
-			authenticated: true,
-		},
 	},
 	{
 		id: 'dashboard',

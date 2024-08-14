@@ -4,7 +4,13 @@ import NavigationItem from '../NavigationItem';
 import { getNavItems } from './utils';
 
 const NavigationContainer = () => {
-	const { isAuthenticated } = useAuth0();
+	const { isAuthenticated, isLoading } = useAuth0();
+
+	if (isLoading) {
+		return null;
+	}
+
+	console.log('AUTH:', isAuthenticated);
 
 	const navItems = getNavItems(isAuthenticated, window.location.pathname).map(
 		(item) => (

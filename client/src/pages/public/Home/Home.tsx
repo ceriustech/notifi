@@ -4,7 +4,11 @@ import HowItWorks from './components/HowItWorks';
 import FAQ from './components/Faq';
 
 const Home = () => {
-	const { isAuthenticated } = useAuth0();
+	const { isAuthenticated, isLoading } = useAuth0();
+
+	if (isLoading) {
+		return null;
+	}
 
 	return (
 		<>

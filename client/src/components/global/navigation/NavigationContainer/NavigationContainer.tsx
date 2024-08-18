@@ -2,6 +2,7 @@ import { Link } from '@tanstack/react-router';
 import { useAuth0 } from '@auth0/auth0-react';
 import NavigationItem from '../NavigationItem';
 import { getNavItems } from './utils';
+import NotifiIcon from '../../../../assets/components/NotifiIcon';
 
 const NavigationContainer = () => {
 	const { isAuthenticated, isLoading } = useAuth0();
@@ -23,11 +24,13 @@ const NavigationContainer = () => {
 		)
 	);
 
+	const getHomePath = (): string => (isAuthenticated ? '/dashboard' : '/');
+
 	return (
 		<nav>
-			<Link to="/">
-				<img src="/path-to-logo.png" alt="Site Logo" />
-				<span>Site Name</span>
+			<Link to={getHomePath()}>
+				<NotifiIcon />
+				<span>Notifi</span>
 			</Link>
 			<ul>{navItems}</ul>
 		</nav>

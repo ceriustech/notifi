@@ -29,7 +29,7 @@ const NavigationContainer = () => {
 	return (
 		<nav>
 			<Link to={getHomePath()}>
-				<NotifiIcon />
+				<NotifiIcon width={35} height={35} />
 				<span>Notifi</span>
 			</Link>
 			<ul>{navItems}</ul>

@@ -5,19 +5,24 @@ interface NavigationItemProps {
 	path: string;
 	routeName: string;
 	component?: React.ComponentType;
+	icon?: React.ComponentType;
 }
 
 const NavigationItem = ({
 	path,
 	routeName,
 	component,
+	icon,
 }: NavigationItemProps) => {
 	return (
 		<li>
 			{component ? (
 				React.createElement(component)
 			) : (
-				<Link to={path}>{routeName}</Link>
+				<Link to={path}>
+					{icon && React.createElement(icon)}
+					{routeName}
+				</Link>
 			)}
 		</li>
 	);

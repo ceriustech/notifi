@@ -4,8 +4,8 @@ export interface DashboardIconProps {
 }
 
 const DashboardIcon: React.FC<DashboardIconProps> = ({
-	width = 50,
-	height = 50,
+	width = 30,
+	height = 30,
 }) => {
 	return (
 		<svg

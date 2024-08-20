@@ -1,11 +1,14 @@
+import { FC } from 'react';
 import { ComponentType } from 'react';
 import LoginButton from '../../components/global/auth/LoginButton';
+import { icons } from '../../assets/images/images.data';
 
 export interface NavItem {
 	id: string;
 	path: string;
 	routeName: string;
 	component?: ComponentType;
+	icon?: FC;
 }
 
 export interface Route extends NavItem {
@@ -40,6 +43,7 @@ export const routes: Route[] = [
 		id: 'dashboard',
 		path: '/dashboard',
 		routeName: 'Dashboard',
+		icon: icons.dashboard,
 		exact: true,
 		designation: {
 			authenticated: true,
@@ -49,6 +53,7 @@ export const routes: Route[] = [
 		id: 'legislation',
 		path: '/legislation',
 		routeName: 'Legislation',
+		icon: icons.legislation,
 		exact: true,
 		designation: {
 			authenticated: true,
@@ -58,6 +63,7 @@ export const routes: Route[] = [
 		id: 'politician-profile',
 		path: '/politician-profile',
 		routeName: 'PoliticianProfile',
+		icon: icons.politicianProfile,
 		exact: true,
 		designation: {
 			authenticated: true,
@@ -67,6 +73,7 @@ export const routes: Route[] = [
 		id: 'user-profile',
 		path: '/user-profile',
 		routeName: 'UserProfile',
+		icon: icons.userProfile,
 		exact: true,
 		designation: {
 			authenticated: true,

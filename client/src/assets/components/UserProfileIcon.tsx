@@ -4,8 +4,8 @@ export interface UserProfileIconProps {
 }
 
 const PoliticianProfile: React.FC<UserProfileIconProps> = ({
-	width = 50,
-	height = 50,
+	width = 30,
+	height = 30,
 }) => {
 	return (
 		<svg

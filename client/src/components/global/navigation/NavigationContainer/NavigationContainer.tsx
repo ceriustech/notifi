@@ -20,6 +20,7 @@ const NavigationContainer = () => {
 				path={item.path}
 				routeName={item.routeName}
 				component={item.component}
+				icon={item.icon}
 			/>
 		)
 	);

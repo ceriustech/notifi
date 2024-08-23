@@ -1,6 +1,8 @@
 interface Colors {
 	root: {
 		lightGray: string;
+		gray: string;
+		darkGray: string;
 		black: string;
 		white: string;
 		skyBlue: string;
@@ -14,7 +16,9 @@ interface Colors {
 
 export const defaultColors: Colors = {
 	root: {
-		lightGray: '#7B7B7B',
+		lightGray: '#d5d5d5',
+		gray: '#D8D6D6',
+		darkGray: '#7B7B7B',
 		black: '#000000',
 		white: '#FFFFFF',
 		skyBlue: '#B5D8F6',

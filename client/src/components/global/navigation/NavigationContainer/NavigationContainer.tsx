@@ -1,11 +1,13 @@
 import { Link } from '@tanstack/react-router';
-import { useAuth0 } from '@auth0/auth0-react';
+import { useStateContext } from '../../../../state/contextProvider';
 import NavigationItem from '../NavigationItem';
 import { getNavItems } from './utils';
 import NotifiIcon from '../../../../assets/components/NotifiIcon';
+import { NavigationLayoutContainer, LogoContainer } from './styles';
 
 const NavigationContainer = () => {
-	const { isAuthenticated, isLoading } = useAuth0();
+	const { state } = useStateContext();
+	const { isAuthenticated, isLoading } = state;
 
 	if (isLoading) {
 		return null;
@@ -28,13 +30,15 @@ const NavigationContainer = () => {
 	const getHomePath = (): string => (isAuthenticated ? '/dashboard' : '/');
 
 	return (
-		<nav>
-			<Link to={getHomePath()}>
-				<NotifiIcon width={35} height={35} />
-				<span>Notifi</span>
-			</Link>
+		<NavigationLayoutContainer>
+			<LogoContainer>
+				<Link to={getHomePath()}>
+					<NotifiIcon width={35} height={35} />
+					<span>Notifi</span>
+				</Link>
+			</LogoContainer>
 			<ul>{navItems}</ul>
-		</nav>
+		</NavigationLayoutContainer>
 	);
 };
 

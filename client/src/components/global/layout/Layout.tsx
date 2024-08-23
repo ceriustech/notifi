@@ -1,15 +1,16 @@
 import { Outlet } from '@tanstack/react-router';
+import { LayoutContainer, Header, Main } from './styles';
 import NavigationContainer from '../navigation/NavigationContainer';
 
 const Layout = () => (
-	<>
-		<header>
+	<LayoutContainer>
+		<Header>
 			<NavigationContainer />
-		</header>
-		<main>
+		</Header>
+		<Main>
 			<Outlet />
-		</main>
-	</>
+		</Main>
+	</LayoutContainer>
 );
 
 export default Layout;

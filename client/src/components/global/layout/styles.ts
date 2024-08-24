@@ -1,15 +1,31 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import { defaultColors as colors } from '../../../styles/colors';
 
-export const LayoutContainer = styled.div`
-	display: flex;
-	height: 100vh;
-	width: 100%;
+interface LayoutContainerProps {
+	isAuthenticated: boolean;
+}
+
+interface HeaderProps extends LayoutContainerProps {}
+
+export const LayoutContainer = styled.div<LayoutContainerProps>`
+	${({ isAuthenticated }) => {
+		return css`
+			display: flex;
+			${isAuthenticated ? 'flex-direction: row;' : 'flex-direction: column;'}
+			height: 100vh;
+			width: 100%;
+		`;
+	}}
 `;
 
-export const Header = styled.header`
-	border-right: 1px solid ${colors.root.lightGray};
-  
+export const Header = styled.header<HeaderProps>`
+	${({ isAuthenticated }) => {
+		return css`
+			${isAuthenticated
+				? `border-right: 1px solid ${colors.root.lightGray}`
+				: ''}
+		`;
+	}}
 `;
 
 export const Main = styled.main`

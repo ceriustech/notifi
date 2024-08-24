@@ -3,7 +3,7 @@ import { useStateContext } from '../../../../state/contextProvider';
 import NavigationItem from '../NavigationItem';
 import { getNavItems } from './utils';
 import NotifiIcon from '../../../../assets/components/NotifiIcon';
-import { NavigationLayoutContainer, LogoContainer } from './styles';
+import { NavigationLayoutContainer, LogoContainer, Logo } from './styles';
 
 const NavigationContainer = () => {
 	const { state } = useStateContext();
@@ -12,8 +12,6 @@ const NavigationContainer = () => {
 	if (isLoading) {
 		return null;
 	}
-
-	console.log('AUTH:', isAuthenticated);
 
 	const navItems = getNavItems(isAuthenticated, window.location.pathname).map(
 		(item) => (
@@ -30,11 +28,13 @@ const NavigationContainer = () => {
 	const getHomePath = (): string => (isAuthenticated ? '/dashboard' : '/');
 
 	return (
-		<NavigationLayoutContainer>
-			<LogoContainer>
+		<NavigationLayoutContainer isAuthenticated={isAuthenticated}>
+			<LogoContainer isAuthenticated={isAuthenticated}>
 				<Link to={getHomePath()}>
-					<NotifiIcon width={35} height={35} />
-					<span>Notifi</span>
+					<Logo>
+						<NotifiIcon width={35} height={35} />
+						<h1>Notifi</h1>
+					</Logo>
 				</Link>
 			</LogoContainer>
 			<ul>{navItems}</ul>

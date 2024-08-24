@@ -26,7 +26,6 @@ export const StateProvider: React.FC<{ children: ReactNode }> = ({
 	const { user, isAuthenticated, isLoading } = useAuth0();
 
 	useEffect(() => {
-		// Update the loading status
 		dispatch({ type: 'SET_LOADING', payload: isLoading });
 
 		// If authenticated, set the user and update the authentication state

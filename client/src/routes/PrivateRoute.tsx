@@ -8,7 +8,7 @@ const PrivateRoute = ({ children }: { children: React.ReactNode }) => {
 		return <div>Loading ...</div>;
 	}
 
-	return isAuthenticated ? <>{children}</> : <Navigate to="/dashboard" />;
+	return isAuthenticated ? <>{children}</> : <Navigate to="/" />;
 };
 
 export default PrivateRoute;

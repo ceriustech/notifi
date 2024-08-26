@@ -23,7 +23,8 @@ export const Header = styled.header<HeaderProps>`
 		return css`
 			${isAuthenticated
 				? `border-right: 1px solid ${colors.root.lightGray}`
-				: ''}
+				: ''};
+			${isAuthenticated ? 'flex-basis: 15%;' : 'width: 100%;'}
 		`;
 	}}
 `;

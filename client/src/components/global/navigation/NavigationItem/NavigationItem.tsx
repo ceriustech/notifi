@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from '@tanstack/react-router';
+import { NavItem } from './styles';
 
 interface NavigationItemProps {
 	path: string;
@@ -15,7 +16,7 @@ const NavigationItem = ({
 	icon,
 }: NavigationItemProps) => {
 	return (
-		<li>
+		<NavItem>
 			{component ? (
 				React.createElement(component)
 			) : (
@@ -24,7 +25,7 @@ const NavigationItem = ({
 					{routeName}
 				</Link>
 			)}
-		</li>
+		</NavItem>
 	);
 };
 

@@ -1,11 +1,13 @@
 export interface PoliticianProfileIconProps {
 	width?: string;
 	height?: string;
+	fill?: string;
 }
 
 const PoliticianProfile: React.FC<PoliticianProfileIconProps> = ({
 	width = 30,
 	height = 30,
+	fill = '#7b7b7b',
 }) => {
 	return (
 		<svg
@@ -16,7 +18,7 @@ const PoliticianProfile: React.FC<PoliticianProfileIconProps> = ({
 			height={height}
 		>
 			<g
-				fill="#7b7b7b"
+				fill={fill}
 				fill-rule="nonzero"
 				stroke="none"
 				stroke-width="1"

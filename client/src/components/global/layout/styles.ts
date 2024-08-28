@@ -30,5 +30,6 @@ export const Header = styled.header<HeaderProps>`
 `;
 
 export const Main = styled.main`
+	padding: 1rem;
 	width: 100%;
 `;

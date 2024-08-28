@@ -13,5 +13,18 @@ export const NavItem = styled.li`
 		text-decoration: none;
 		color: ${colors.root.black};
 		font-weight: 500;
+
+		&:hover {
+			svg path {
+				fill: ${colors.root.black}; /* Set your desired hover color */
+			}
+
+			color: ${colors.root.black};
+			font-weight: 600;
+		}
+
+		span {
+			margin-left: 0.5rem;
+		}
 	}
 `;

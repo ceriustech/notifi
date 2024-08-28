@@ -1,11 +1,13 @@
 export interface DashboardIconProps {
 	width?: number;
 	height?: number;
+	fill?: string;
 }
 
 const DashboardIcon: React.FC<DashboardIconProps> = ({
 	width = 30,
 	height = 30,
+	fill = '#7b7b7b',
 }) => {
 	return (
 		<svg
@@ -16,7 +18,7 @@ const DashboardIcon: React.FC<DashboardIconProps> = ({
 			height={height}
 		>
 			<g
-				fill="#7b7b7b"
+				fill={fill}
 				fill-rule="nonzero"
 				stroke="none"
 				stroke-width="1"

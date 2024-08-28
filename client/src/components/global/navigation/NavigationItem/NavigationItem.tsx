@@ -22,7 +22,7 @@ const NavigationItem = ({
 			) : (
 				<Link to={path}>
 					{icon && React.createElement(icon)}
-					{routeName}
+					<span>{routeName}</span>
 				</Link>
 			)}
 		</NavItem>

@@ -1,11 +1,13 @@
 export interface LegislationIconProps {
 	width?: string;
 	height?: string;
+	fill?: string;
 }
 
 const LegislationIcon: React.FC<LegislationIconProps> = ({
 	width = 30,
 	height = 30,
+	fill = '#7b7b7b',
 }) => {
 	return (
 		<svg
@@ -16,7 +18,7 @@ const LegislationIcon: React.FC<LegislationIconProps> = ({
 			height={height}
 		>
 			<g
-				fill="#7b7b7b"
+				fill={fill}
 				fill-rule="nonzero"
 				stroke="none"
 				stroke-width="1"

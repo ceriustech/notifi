@@ -16,7 +16,7 @@ export const NavItem = styled.li`
 
 		&:hover {
 			svg path {
-				fill: ${colors.root.black}; /* Set your desired hover color */
+				fill: ${colors.root.black};
 			}
 
 			color: ${colors.root.black};

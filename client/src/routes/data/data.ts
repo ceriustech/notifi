@@ -50,20 +50,20 @@ export const routes: Route[] = [
 		},
 	},
 	{
-		id: 'legislation',
-		path: '/legislation',
-		routeName: 'Legislation',
-		icon: icons.legislation,
+		id: 'politician-profile',
+		path: '/politician-profile',
+		routeName: 'PoliticianProfile',
+		icon: icons.politicianProfile,
 		exact: true,
 		designation: {
 			authenticated: true,
 		},
 	},
 	{
-		id: 'politician-profile',
-		path: '/politician-profile',
-		routeName: 'PoliticianProfile',
-		icon: icons.politicianProfile,
+		id: 'legislation',
+		path: '/legislation',
+		routeName: 'Legislation',
+		icon: icons.legislation,
 		exact: true,
 		designation: {
 			authenticated: true,

@@ -8,6 +8,7 @@ import PoliticianProfileIcon, {
 import UserProfileIcon, {
 	UserProfileIconProps,
 } from '../components/UserProfileIcon';
+import CalendarIcon, { CalendarIconProps } from '../components/CalendarIcon';
 
 export const icons = {
 	dashboard: DashboardIcon as React.FC<DashboardIconProps>,
@@ -15,4 +16,5 @@ export const icons = {
 	politicianProfile:
 		PoliticianProfileIcon as React.FC<PoliticianProfileIconProps>,
 	userProfile: UserProfileIcon as React.FC<UserProfileIconProps>,
+	calendar: CalendarIcon as React.FC<CalendarIconProps>,
 };

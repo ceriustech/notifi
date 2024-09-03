@@ -1,10 +1,27 @@
+const months = [
+	'January',
+	'February',
+	'March',
+	'April',
+	'May',
+	'June',
+	'July',
+	'August',
+	'September',
+	'October',
+	'November',
+	'December',
+];
+
+function getMonthName(month: number): string {
+	return months[month];
+}
+
 export function getCurrentDateTime(): string {
 	const date = new Date();
-	const year = date.getFullYear();
-	const month = date.getMonth() + 1;
+	const month = getMonthName(date.getMonth());
 	const day = date.getDate();
-	const hours = date.getHours();
-	const minutes = date.getMinutes();
-	const seconds = date.getSeconds();
-	return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
+	const year = date.getFullYear();
+
+	return `${day} ${month}, ${year}`;
 }

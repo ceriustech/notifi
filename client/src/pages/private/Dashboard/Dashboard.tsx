@@ -1,30 +1,19 @@
 import { useStateContext } from '../../../state/contextProvider';
 import { DashboardContainer, UserDescription } from './styles';
-
-interface User {
-	user: string;
-	name: string;
-}
-
-function getUserName(user: User | undefined): string | undefined {
-	if (user && user.name) {
-		const match = user.name.match(/^[^\s]+/);
-		return match ? match[0] : undefined;
-	}
-}
+import { getUserName, User } from '../../../utility/getUserName';
 
 const Dashboard = () => {
 	const { state } = useStateContext();
 	const { user } = state;
 
-	const userData = user ? user : 'user name';
+	const userData: User | null = user ? user : null;
 
 	console.log('USER INFO:', user);
 
 	return (
 		<DashboardContainer>
 			<UserDescription>
-				<h1>Hello {getUserName(userData)}</h1>
+				<h1>Hello {getUserName(userData, true)}</h1>
 			</UserDescription>
 		</DashboardContainer>
 	);

@@ -25,5 +25,15 @@ export const UserDescription = styled.section`
 	}
 `;
 
-export const DateContainer = styled.div`
+export const Overview = styled.section`
+	border: 1px solid #000;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+`;
+
+export const OverviewCard = styled.div`
+	border: 1px solid #000;
+	padding: 1rem;
 `;

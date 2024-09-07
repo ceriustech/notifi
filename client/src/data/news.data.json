@@ -1,0 +1,134 @@
+{
+	"presidentialRaceOverview": {
+		"candidates": [
+			{
+				"id": "1",
+				"name": "John Smith",
+				"party": "Democratic",
+				"pollingPercentage": 48.3,
+				"trend": "up"
+			},
+			{
+				"id": "2",
+				"name": "Jane Doe",
+				"party": "Republican",
+				"pollingPercentage": 46.7,
+				"trend": "down"
+			},
+			{
+				"id": "3",
+				"name": "Sam Johnson",
+				"party": "Independent",
+				"pollingPercentage": 5.0,
+				"trend": "stable"
+			}
+		],
+		"lastUpdated": "2024-08-30T12:00:00Z"
+	},
+	"keyElectionIssues": [
+		{
+			"id": "1",
+			"name": "Economy",
+			"description": "Focuses on job creation, inflation, and economic growth.",
+			"candidateStances": [
+				{
+					"candidateId": "1",
+					"stance": "Supports increased government spending on infrastructure."
+				},
+				{
+					"candidateId": "2",
+					"stance": "Advocates for tax cuts to stimulate economic growth."
+				}
+			]
+		},
+		{
+			"id": "2",
+			"name": "Healthcare",
+			"description": "Addresses healthcare accessibility and affordability.",
+			"candidateStances": [
+				{
+					"candidateId": "1",
+					"stance": "Proposes expanding Medicare for all."
+				},
+				{
+					"candidateId": "2",
+					"stance": "Supports a market-driven healthcare system."
+				}
+			]
+		},
+		{
+			"id": "3",
+			"name": "Climate Change",
+			"description": "Focuses on environmental policies and renewable energy.",
+			"candidateStances": [
+				{
+					"candidateId": "1",
+					"stance": "Advocates for aggressive carbon emission reduction targets."
+				},
+				{
+					"candidateId": "2",
+					"stance": "Supports balanced approach between economy and environment."
+				}
+			]
+		}
+	],
+	"upcomingEvents": [
+		{
+			"id": "1",
+			"name": "Presidential Debate",
+			"date": "2024-09-15T20:00:00Z",
+			"location": "Washington, D.C.",
+			"participants": ["John Smith", "Jane Doe"]
+		},
+		{
+			"id": "2",
+			"name": "Iowa Caucuses",
+			"date": "2024-10-01T00:00:00Z",
+			"location": "Iowa",
+			"description": "First major electoral event of the nominating process."
+		}
+	],
+	"recentPolls": [
+		{
+			"id": "1",
+			"pollster": "National Research",
+			"date": "2024-08-28T00:00:00Z",
+			"results": [
+				{ "candidateId": "1", "percentage": 48 },
+				{ "candidateId": "2", "percentage": 47 },
+				{ "candidateId": "3", "percentage": 5 }
+			]
+		},
+		{
+			"id": "2",
+			"pollster": "American Polling",
+			"date": "2024-08-25T00:00:00Z",
+			"results": [
+				{ "candidateId": "1", "percentage": 47 },
+				{ "candidateId": "2", "percentage": 48 },
+				{ "candidateId": "3", "percentage": 5 }
+			]
+		}
+	],
+	"candidateComparison": {
+		"issues": [
+			{
+				"name": "Tax Policy",
+				"stances": [
+					{ "candidateId": "1", "stance": "Increase taxes on high earners" },
+					{ "candidateId": "2", "stance": "Across-the-board tax cuts" }
+				]
+			},
+			{
+				"name": "Foreign Policy",
+				"stances": [
+					{
+						"candidateId": "1",
+						"stance": "Strengthen international alliances"
+					},
+					{ "candidateId": "2", "stance": "Focus on domestic issues first" }
+				]
+			}
+		]
+	}
+}

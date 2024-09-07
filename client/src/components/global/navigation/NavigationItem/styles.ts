@@ -11,7 +11,7 @@ export const NavItem = styled.li`
 		display: flex;
 		align-items: center;
 		text-decoration: none;
-		color: ${colors.root.black};
+		color: ${colors.root.darkGray};
 		font-weight: 500;
 
 		&:hover {
@@ -19,8 +19,9 @@ export const NavItem = styled.li`
 				fill: ${colors.root.black};
 			}
 
-			color: ${colors.root.black};
-			font-weight: 600;
+			span {
+				color: ${colors.root.black};
+			}
 		}
 
 		span {

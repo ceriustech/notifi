@@ -3,21 +3,21 @@
 		"candidates": [
 			{
 				"id": "1",
-				"name": "John Smith",
-				"party": "Democratic",
+				"name": "Donald Trump",
+				"party": "Republican",
 				"pollingPercentage": 48.3,
 				"trend": "up"
 			},
 			{
 				"id": "2",
-				"name": "Jane Doe",
-				"party": "Republican",
+				"name": "Kamala Harris",
+				"party": "Democrat",
 				"pollingPercentage": 46.7,
 				"trend": "down"
 			},
 			{
 				"id": "3",
-				"name": "Sam Johnson",
+				"name": "Jill Stein",
 				"party": "Independent",
 				"pollingPercentage": 5.0,
 				"trend": "stable"

@@ -6,6 +6,7 @@
 				"name": "Donald Trump",
 				"party": "Republican",
 				"pollingPercentage": 48.3,
+				"trend": "up",
 				"biography": {
 					"birthYear": 1946,
 					"birthPlace": "Queens, New York",
@@ -122,7 +123,1419 @@
 					"name": "J.D. Vance",
 					"position": "U.S. Senator from Ohio",
 					"announcementDate": "2024-07-15"
-				}
+				},
+				"endorsements": {
+					"totalEndorsements": 200,
+					"endorsements": [
+						{
+							"id": 1,
+							"name": "Nikki Haley",
+							"position": "Former U.N. Ambassador",
+							"state": "",
+							"date": "July 16, 2024"
+						},
+						{
+							"id": 2,
+							"name": "Robert F. Kennedy Jr.",
+							"position": "Former 2024 presidential candidate",
+							"state": "",
+							"date": "August 23, 2024"
+						},
+						{
+							"id": 3,
+							"name": "Katie Britt",
+							"position": "U.S. Sen.",
+							"state": "AL",
+							"date": "December 6, 2023"
+						},
+						{
+							"id": 4,
+							"name": "Tommy Tuberville",
+							"position": "U.S. Sen.",
+							"state": "AL",
+							"date": "November 17, 2022"
+						},
+						{
+							"id": 5,
+							"name": "Robert Aderholt",
+							"position": "U.S. Rep.",
+							"state": "AL",
+							"date": "August 4, 2023"
+						},
+						{
+							"id": 6,
+							"name": "Jerry Carl",
+							"position": "U.S. Rep.",
+							"state": "AL",
+							"date": "August 4, 2023"
+						},
+						{
+							"id": 7,
+							"name": "Barry Moore",
+							"position": "U.S. Rep.",
+							"state": "AL",
+							"date": "December 2, 2022"
+						},
+						{
+							"id": 8,
+							"name": "Gary Palmer",
+							"position": "U.S. Rep.",
+							"state": "AL",
+							"date": "August 4, 2023"
+						},
+						{
+							"id": 9,
+							"name": "Mike Rogers",
+							"position": "U.S. Rep.",
+							"state": "AL",
+							"date": "August 4, 2023"
+						},
+						{
+							"id": 10,
+							"name": "Dale Strong",
+							"position": "U.S. Rep.",
+							"state": "AL",
+							"date": "November 29, 2022"
+						},
+						{
+							"id": 11,
+							"name": "Kay Ivey",
+							"position": "Governor",
+							"state": "AL",
+							"date": "March 5, 2024"
+						},
+						{
+							"id": 12,
+							"name": "Will Ainsworth",
+							"position": "Lieutenant Governor",
+							"state": "AL",
+							"date": "August 4, 2023"
+						},
+						{
+							"id": 13,
+							"name": "Wes Allen",
+							"position": "Secretary of State",
+							"state": "AL",
+							"date": "July 17, 2024"
+						},
+						{
+							"id": 14,
+							"name": "Rick Pate",
+							"position": "Commissioner of Agriculture and Industries",
+							"state": "AL",
+							"date": "August 4, 2023"
+						},
+						{
+							"id": 15,
+							"name": "Andrew Sorrell",
+							"position": "Auditor",
+							"state": "AL",
+							"date": "February 13, 2024"
+						},
+						{
+							"id": 16,
+							"name": "Daniel S. Sullivan",
+							"position": "U.S. Sen.",
+							"state": "AK",
+							"date": "February 23, 2024"
+						},
+						{
+							"id": 17,
+							"name": "Mike Dunleavy",
+							"position": "Governor",
+							"state": "AK",
+							"date": "August 22, 2023"
+						},
+						{
+							"id": 18,
+							"name": "Nancy Dahlstrom",
+							"position": "Lieutenant Governor",
+							"state": "AK",
+							"date": "January 15, 2024"
+						},
+						{
+							"id": 19,
+							"name": "Sarah Palin",
+							"position": "Former 2008 Republican Vice Presidential nominee",
+							"state": "AK",
+							"date": "March 3, 2023"
+						},
+						{
+							"id": 20,
+							"name": "Andy Biggs",
+							"position": "U.S. Rep.",
+							"state": "AZ",
+							"date": "November 15, 2022"
+						},
+						{
+							"id": 21,
+							"name": "Juan Ciscomani",
+							"position": "U.S. Rep.",
+							"state": "AZ",
+							"date": "March 7, 2024"
+						},
+						{
+							"id": 22,
+							"name": "Eli Crane",
+							"position": "U.S. Rep.",
+							"state": "AZ",
+							"date": "November 15, 2022"
+						},
+						{
+							"id": 23,
+							"name": "Paul Gosar",
+							"position": "U.S. Rep.",
+							"state": "AZ",
+							"date": "November 16, 2022"
+						},
+						{
+							"id": 24,
+							"name": "Debbie Lesko",
+							"position": "U.S. Rep.",
+							"state": "AZ",
+							"date": "December 27, 2023"
+						},
+						{
+							"id": 25,
+							"name": "Warren Petersen",
+							"position": "Arizona Senate President",
+							"state": "AZ",
+							"date": "February 15, 2024"
+						},
+						{
+							"id": 26,
+							"name": "Ben Toma",
+							"position": "Arizona House Speaker",
+							"state": "AZ",
+							"date": "January 23, 2024"
+						},
+						{
+							"id": 27,
+							"name": "John Boozman",
+							"position": "U.S. Sen.",
+							"state": "AR",
+							"date": "May 30, 2024"
+						},
+						{
+							"id": 28,
+							"name": "Tom Cotton",
+							"position": "U.S. Sen.",
+							"state": "AR",
+							"date": "January 3, 2024"
+						},
+						{
+							"id": 29,
+							"name": "Rick Crawford",
+							"position": "U.S. Rep.",
+							"state": "AR",
+							"date": "January 15, 2024"
+						},
+						{
+							"id": 30,
+							"name": "French Hill",
+							"position": "U.S. Rep.",
+							"state": "AR",
+							"date": "May 30, 2024"
+						},
+						{
+							"id": 31,
+							"name": "Bruce Westerman",
+							"position": "U.S. Rep.",
+							"state": "AR",
+							"date": "February 6, 2024"
+						},
+						{
+							"id": 32,
+							"name": "Steve Womack",
+							"position": "U.S. Rep.",
+							"state": "AR",
+							"date": "February 6, 2024"
+						},
+						{
+							"id": 33,
+							"name": "Sarah Huckabee Sanders",
+							"position": "Governor",
+							"state": "AR",
+							"date": "November 6, 2023"
+						},
+						{
+							"id": 34,
+							"name": "Ken Calvert",
+							"position": "U.S. Rep.",
+							"state": "CA",
+							"date": "February 6, 2024"
+						},
+						{
+							"id": 35,
+							"name": "John Duarte",
+							"position": "U.S. Rep.",
+							"state": "CA",
+							"date": "March 6, 2024"
+						},
+						{
+							"id": 36,
+							"name": "Mike Garcia",
+							"position": "U.S. Rep.",
+							"state": "CA",
+							"date": "March 26, 2024"
+						},
+						{
+							"id": 37,
+							"name": "Darrell Issa",
+							"position": "U.S. Rep.",
+							"state": "CA",
+							"date": "January 11, 2024"
+						},
+						{
+							"id": 38,
+							"name": "Doug LaMalfa",
+							"position": "U.S. Rep.",
+							"state": "CA",
+							"date": "February 9, 2024"
+						},
+						{
+							"id": 39,
+							"name": "Kevin McCarthy",
+							"position": "U.S. Rep.",
+							"state": "CA",
+							"date": "December 9, 2023"
+						},
+						{
+							"id": 40,
+							"name": "Tom McClintock",
+							"position": "U.S. Rep.",
+							"state": "CA",
+							"date": "February 6, 2024"
+						},
+						{
+							"id": 41,
+							"name": "Jay Obernolte",
+							"position": "U.S. Rep.",
+							"state": "CA",
+							"date": "February 5, 2024"
+						},
+						{
+							"id": 42,
+							"name": "Michelle Steel",
+							"position": "U.S. Rep.",
+							"state": "CA",
+							"date": "February 5, 2024"
+						},
+						{
+							"id": 43,
+							"name": "Larry Elder",
+							"position": "Former 2024 presidential candidate",
+							"state": "CA",
+							"date": "October 26, 2023"
+						},
+						{
+							"id": 44,
+							"name": "Lauren Boebert",
+							"position": "U.S. Rep.",
+							"state": "CO",
+							"date": "January 26, 2023"
+						},
+						{
+							"id": 45,
+							"name": "Marco Rubio",
+							"position": "U.S. Sen.",
+							"state": "FL",
+							"date": "January 14, 2024"
+						},
+						{
+							"id": 46,
+							"name": "Rick Scott",
+							"position": "U.S. Sen.",
+							"state": "FL",
+							"date": "November 2, 2023"
+						},
+						{
+							"id": 47,
+							"name": "Aaron Bean",
+							"position": "U.S. Rep.",
+							"state": "FL",
+							"date": "January 21, 2024"
+						},
+						{
+							"id": 48,
+							"name": "Vern Buchanan",
+							"position": "U.S. Rep.",
+							"state": "FL",
+							"date": "April 19, 2023"
+						},
+						{
+							"id": 49,
+							"name": "Kat Cammack",
+							"position": "U.S. Rep.",
+							"state": "FL",
+							"date": "January 20, 2024"
+						},
+						{
+							"id": 50,
+							"name": "Mario Diaz-Balart",
+							"position": "U.S. Rep.",
+							"state": "FL",
+							"date": "January 29, 2024"
+						},
+						{
+							"id": 51,
+							"name": "Byron Donalds",
+							"position": "U.S. Rep.",
+							"state": "FL",
+							"date": "April 6, 2023"
+						},
+						{
+							"id": 52,
+							"name": "Neal Dunn",
+							"position": "U.S. Rep.",
+							"state": "FL",
+							"date": "January 18, 2024"
+						},
+						{
+							"id": 53,
+							"name": "Scott Franklin",
+							"position": "U.S. Rep.",
+							"state": "FL",
+							"date": "January 21, 2024"
+						},
+						{
+							"id": 54,
+							"name": "Matt Gaetz",
+							"position": "U.S. Rep.",
+							"state": "FL",
+							"date": "November 9, 2022"
+						},
+						{
+							"id": 55,
+							"name": "Laurel Lee",
+							"position": "U.S. Rep.",
+							"state": "FL",
+							"date": "January 22, 2024"
+						},
+						{
+							"id": 56,
+							"name": "Anna Paulina Luna",
+							"position": "U.S. Rep.",
+							"state": "FL",
+							"date": "March 20, 2023"
+						},
+						{
+							"id": 57,
+							"name": "Brian Mast",
+							"position": "U.S. Rep.",
+							"state": "FL",
+							"date": "April 18, 2023"
+						},
+						{
+							"id": 58,
+							"name": "Cory Mills",
+							"position": "U.S. Rep.",
+							"state": "FL",
+							"date": "April 10, 2023"
+						},
+						{
+							"id": 59,
+							"name": "Bill Posey",
+							"position": "U.S. Rep.",
+							"state": "FL",
+							"date": "September 19, 2023"
+						},
+						{
+							"id": 60,
+							"name": "John Rutherford",
+							"position": "U.S. Rep.",
+							"state": "FL",
+							"date": "April 18, 2023"
+						},
+						{
+							"id": 61,
+							"name": "Maria Elvira Salazar",
+							"position": "U.S. Rep.",
+							"state": "FL",
+							"date": "February 20, 2024"
+						},
+						{
+							"id": 62,
+							"name": "Greg Steube",
+							"position": "U.S. Rep.",
+							"state": "FL",
+							"date": "April 17, 2023"
+						},
+						{
+							"id": 63,
+							"name": "Michael Waltz",
+							"position": "U.S. Rep.",
+							"state": "FL",
+							"date": "April 20, 2023"
+						},
+						{
+							"id": 64,
+							"name": "Daniel Webster",
+							"position": "U.S. Rep.",
+							"state": "FL",
+							"date": "May 25, 2023"
+						},
+						{
+							"id": 65,
+							"name": "Ron DeSantis",
+							"position": "Governor",
+							"state": "FL",
+							"date": "January 21, 2024"
+						},
+						{
+							"id": 66,
+							"name": "Kathleen Passidomo",
+							"position": "Florida Senate President",
+							"state": "FL",
+							"date": "January 21, 2024"
+						},
+						{
+							"id": 67,
+							"name": "Paul Renner",
+							"position": "Florida House Speaker",
+							"state": "FL",
+							"date": "January 21, 2024"
+						},
+						{
+							"id": 68,
+							"name": "Francis Suarez",
+							"position": "Miami Mayor",
+							"state": "FL",
+							"date": "March 1, 2024"
+						},
+						{
+							"id": 69,
+							"name": "Ashley B. Moody",
+							"position": "Florida Attorney General",
+							"state": "FL",
+							"date": "January 21, 2024"
+						},
+						{
+							"id": 70,
+							"name": "Jimmy Patronis",
+							"position": "Florida Chief Financial Officer",
+							"state": "FL",
+							"date": "January 21, 2024"
+						},
+						{
+							"id": 71,
+							"name": "Wilton Simpson",
+							"position": "Florida Agriculture Commissioner",
+							"state": "FL",
+							"date": "January 21, 2024"
+						},
+						{
+							"id": 72,
+							"name": "Veterans for America First",
+							"position": "",
+							"state": "FL",
+							"date": "September 10, 2024"
+						},
+						{
+							"id": 73,
+							"name": "Rick Allen",
+							"position": "U.S. Rep.",
+							"state": "GA",
+							"date": "February 6, 2024"
+						},
+						{
+							"id": 74,
+							"name": "Earl Carter",
+							"position": "U.S. Rep.",
+							"state": "GA",
+							"date": "November 22, 2023"
+						},
+						{
+							"id": 75,
+							"name": "Andrew Clyde",
+							"position": "U.S. Rep.",
+							"state": "GA",
+							"date": "June 10, 2023"
+						},
+						{
+							"id": 76,
+							"name": "Mike Collins",
+							"position": "U.S. Rep.",
+							"state": "GA",
+							"date": "June 10, 2023"
+						},
+						{
+							"id": 77,
+							"name": "Marjorie Taylor Greene",
+							"position": "U.S. Rep.",
+							"state": "GA",
+							"date": "November 15, 2022"
+						},
+						{
+							"id": 78,
+							"name": "Rich McCormick",
+							"position": "U.S. Rep.",
+							"state": "GA",
+							"date": "January 23, 2024"
+						},
+						{
+							"id": 79,
+							"name": "Austin Scott",
+							"position": "U.S. Rep.",
+							"state": "GA",
+							"date": "February 6, 2024"
+						},
+						{
+							"id": 80,
+							"name": "Brian Kemp",
+							"position": "Governor",
+							"state": "GA",
+							"date": "March 12, 2024"
+						},
+						{
+							"id": 81,
+							"name": "Chris Carr",
+							"position": "Attorney General",
+							"state": "GA",
+							"date": "March 7, 2024"
+						},
+						{
+							"id": 82,
+							"name": "Tyler Harper",
+							"position": "Agriculture Commissioner",
+							"state": "GA",
+							"date": "January 22, 2024"
+						},
+						{
+							"id": 83,
+							"name": "Burt Jones",
+							"position": "Lieutenant Governor",
+							"state": "GA",
+							"date": "June 10, 2023"
+						},
+						{
+							"id": 84,
+							"name": "Bruce Thompson",
+							"position": "Commissioner of Labor",
+							"state": "GA",
+							"date": "December 18, 2023"
+						},
+						{
+							"id": 85,
+							"name": "Mike Crapo",
+							"position": "U.S. Sen.",
+							"state": "ID",
+							"date": "January 22, 2024"
+						},
+						{
+							"id": 86,
+							"name": "Jim Risch",
+							"position": "U.S. Sen.",
+							"state": "ID",
+							"date": "January 13, 2024"
+						},
+						{
+							"id": 87,
+							"name": "Russ Fulcher",
+							"position": "U.S. Rep.",
+							"state": "ID",
+							"date": "January 21, 2024"
+						},
+						{
+							"id": 88,
+							"name": "Michael K. Simpson",
+							"position": "U.S. Rep.",
+							"state": "ID",
+							"date": "January 22, 2024"
+						},
+						{
+							"id": 89,
+							"name": "Brad Little",
+							"position": "Governor",
+							"state": "ID",
+							"date": "March 2, 2024"
+						},
+						{
+							"id": 90,
+							"name": "Mike Bost",
+							"position": "U.S. Rep.",
+							"state": "IL",
+							"date": "February 22, 2023"
+						},
+						{
+							"id": 91,
+							"name": "Darin LaHood",
+							"position": "U.S. Rep.",
+							"state": "IL",
+							"date": "January 13, 2024"
+						},
+						{
+							"id": 92,
+							"name": "Mary Miller",
+							"position": "U.S. Rep.",
+							"state": "IL",
+							"date": "November 15, 2022"
+						},
+						{
+							"id": 93,
+							"name": "Mike Braun",
+							"position": "U.S. Sen.",
+							"state": "IN",
+							"date": "September 18, 2023"
+						},
+						{
+							"id": 94,
+							"name": "Jim Baird",
+							"position": "U.S. Rep.",
+							"state": "IN",
+							"date": "May 26, 2024"
+						},
+						{
+							"id": 95,
+							"name": "Jim Banks",
+							"position": "U.S. Rep.",
+							"state": "IN",
+							"date": "April 1, 2023"
+						},
+						{
+							"id": 96,
+							"name": "Larry Bucshon",
+							"position": "U.S. Rep.",
+							"state": "IN",
+							"date": "May 26, 2024"
+						},
+						{
+							"id": 97,
+							"name": "Erin Houchin",
+							"position": "U.S. Rep.",
+							"state": "IN",
+							"date": "November 22, 2023"
+						},
+						{
+							"id": 98,
+							"name": "Victoria Spartz",
+							"position": "U.S. Rep.",
+							"state": "IN",
+							"date": "February 6, 2024"
+						},
+						{
+							"id": 99,
+							"name": "Rudy Yakym",
+							"position": "U.S. Rep.",
+							"state": "IN",
+							"date": "January 12, 2024"
+						},
+						{
+							"id": 100,
+							"name": "Suzanne Crouch",
+							"position": "Lieutenant Governor",
+							"state": "IN",
+							"date": "January 23, 2024"
+						},
+						{
+							"id": 101,
+							"name": "Daniel Elliott",
+							"position": "Treasurer",
+							"state": "IN",
+							"date": "January 23, 2024"
+						},
+						{
+							"id": 102,
+							"name": "Diego Morales",
+							"position": "Secretary of State",
+							"state": "IN",
+							"date": "November 21, 2023"
+						},
+						{
+							"id": 103,
+							"name": "Todd Rokita",
+							"position": "Attorney General",
+							"state": "IN",
+							"date": "November 20, 2023"
+						},
+						{
+							"id": 104,
+							"name": "Joni Ernst",
+							"position": "U.S. Sen.",
+							"state": "IA",
+							"date": "March 7, 2024"
+						},
+						{
+							"id": 105,
+							"name": "Chuck Grassley",
+							"position": "U.S. Sen.",
+							"state": "IA",
+							"date": "May 28, 2024"
+						},
+						{
+							"id": 106,
+							"name": "Randy Feenstra",
+							"position": "U.S. Rep.",
+							"state": "IA",
+							"date": "May 30, 2024"
+						},
+						{
+							"id": 107,
+							"name": "Ashley Hinson",
+							"position": "U.S. Rep.",
+							"state": "IA",
+							"date": "January 22, 2024"
+						},
+						{
+							"id": 108,
+							"name": "Kim Reynolds",
+							"position": "Governor",
+							"state": "IA",
+							"date": "March 6, 2024"
+						},
+						{
+							"id": 109,
+							"name": "Brenna Bird",
+							"position": "Attorney General",
+							"state": "IA",
+							"date": "October 16, 2023"
+						},
+						{
+							"id": 110,
+							"name": "Roger Marshall",
+							"position": "U.S. Sen.",
+							"state": "KS",
+							"date": "November 20, 2023"
+						},
+						{
+							"id": 111,
+							"name": "Ron Estes",
+							"position": "U.S. Rep.",
+							"state": "KS",
+							"date": "February 6, 2024"
+						},
+						{
+							"id": 112,
+							"name": "Tracey Mann",
+							"position": "U.S. Rep.",
+							"state": "KS",
+							"date": "November 22, 2023"
+						},
+						{
+							"id": 113,
+							"name": "Kris Kobach",
+							"position": "Attorney General",
+							"state": "KS",
+							"date": "January 21, 2024"
+						},
+						{
+							"id": 114,
+							"name": "Mitch McConnell",
+							"position": "U.S. Sen.",
+							"state": "KY",
+							"date": "March 6, 2024"
+						},
+						{
+							"id": 115,
+							"name": "Andy Barr",
+							"position": "U.S. Rep.",
+							"state": "KY",
+							"date": "December 18, 2023"
+						},
+						{
+							"id": 116,
+							"name": "James Comer Jr.",
+							"position": "U.S. Rep.",
+							"state": "KY",
+							"date": "February 6, 2024"
+						},
+						{
+							"id": 117,
+							"name": "Brett Guthrie",
+							"position": "U.S. Rep.",
+							"state": "KY",
+							"date": "January 22, 2024"
+						},
+						{
+							"id": 118,
+							"name": "Hal Rogers",
+							"position": "U.S. Rep.",
+							"state": "KY",
+							"date": "May 20, 2024"
+						},
+						{
+							"id": 119,
+							"name": "Michael Adams",
+							"position": "Secretary of State",
+							"state": "KY",
+							"date": "August 3, 2024"
+						},
+						{
+							"id": 120,
+							"name": "Allison Ball",
+							"position": "Auditor",
+							"state": "KY",
+							"date": "March 5, 2024"
+						},
+						{
+							"id": 121,
+							"name": "Daniel Cameron",
+							"position": "Attorney General",
+							"state": "KY",
+							"date": "January 3, 2023"
+						},
+						{
+							"id": 122,
+							"name": "Russell Coleman",
+							"position": "Attorney General",
+							"state": "KY",
+							"date": "March 5, 2024"
+						},
+						{
+							"id": 123,
+							"name": "Mark Metcalf",
+							"position": "Treasurer",
+							"state": "KY",
+							"date": "March 5, 2024"
+						},
+						{
+							"id": 124,
+							"name": "Jonathan Shell",
+							"position": "Agriculture Commissioner",
+							"state": "KY",
+							"date": "March 5, 2024"
+						},
+						{
+							"id": 125,
+							"name": "John Neely Kennedy",
+							"position": "U.S. Sen.",
+							"state": "LA",
+							"date": "January 24, 2024"
+						},
+						{
+							"id": 126,
+							"name": "Garret Graves",
+							"position": "U.S. Rep.",
+							"state": "LA",
+							"date": "March 6, 2024"
+						},
+						{
+							"id": 127,
+							"name": "Clay Higgins",
+							"position": "U.S. Rep.",
+							"state": "LA",
+							"date": "November 17, 2022"
+						},
+						{
+							"id": 128,
+							"name": "Mike Johnson",
+							"position": "U.S. House Speaker",
+							"state": "LA",
+							"date": "November 14, 2023"
+						},
+						{
+							"id": 129,
+							"name": "Julia Letlow",
+							"position": "U.S. Rep.",
+							"state": "LA",
+							"date": "January 14, 2024"
+						},
+						{
+							"id": 130,
+							"name": "Steve Scalise",
+							"position": "U.S. Rep.",
+							"state": "LA",
+							"date": "January 2, 2024"
+						},
+						{
+							"id": 131,
+							"name": "Jeff Landry",
+							"position": "Governor",
+							"state": "LA",
+							"date": "January 11, 2024"
+						},
+						{
+							"id": 132,
+							"name": "John Fleming",
+							"position": "Treasurer",
+							"state": "LA",
+							"date": "January 12, 2024"
+						},
+						{
+							"id": 133,
+							"name": "Liz Murrill",
+							"position": "Attorney General",
+							"state": "LA",
+							"date": "January 12, 2024"
+						},
+						{
+							"id": 134,
+							"name": "Andy Harris",
+							"position": "U.S. Rep.",
+							"state": "MD",
+							"date": "January 17, 2024"
+						},
+						{
+							"id": 135,
+							"name": "Jack Bergman",
+							"position": "U.S. Rep.",
+							"state": "MI",
+							"date": "July 11, 2023"
+						},
+						{
+							"id": 136,
+							"name": "Bill Huizenga",
+							"position": "U.S. Rep.",
+							"state": "MI",
+							"date": "July 11, 2023"
+						},
+						{
+							"id": 137,
+							"name": "John James",
+							"position": "U.S. Rep.",
+							"state": "MI",
+							"date": "July 11, 2023"
+						},
+						{
+							"id": 138,
+							"name": "Lisa McClain",
+							"position": "U.S. Rep.",
+							"state": "MI",
+							"date": "June 25, 2023"
+						},
+						{
+							"id": 139,
+							"name": "John Moolenaar",
+							"position": "U.S. Rep.",
+							"state": "MI",
+							"date": "July 11, 2023"
+						},
+						{
+							"id": 140,
+							"name": "Tim Walberg",
+							"position": "U.S. Rep.",
+							"state": "MI",
+							"date": "July 11, 2023"
+						},
+						{
+							"id": 141,
+							"name": "Aric Nesbitt",
+							"position": "Michigan Senate Minority Leader",
+							"state": "MI",
+							"date": "February 14, 2024"
+						},
+						{
+							"id": 142,
+							"name": "Matt Hall",
+							"position": "Michigan House Minority Leader",
+							"state": "MI",
+							"date": "February 14, 2024"
+						},
+						{
+							"id": 143,
+							"name": "Perry Johnson",
+							"position": "Former 2024 presidential candidate",
+							"state": "MI",
+							"date": "October 23, 2023"
+						},
+						{
+							"id": 144,
+							"name": "Tom Emmer",
+							"position": "U.S. Rep.",
+							"state": "MN",
+							"date": "January 3, 2024"
+						},
+						{
+							"id": 145,
+							"name": "Brad Finstad",
+							"position": "U.S. Rep.",
+							"state": "MN",
+							"date": "January 3, 2024"
+						},
+						{
+							"id": 146,
+							"name": "Michelle Fischbach",
+							"position": "U.S. Rep.",
+							"state": "MN",
+							"date": "January 3, 2024"
+						},
+						{
+							"id": 147,
+							"name": "Pete Stauber",
+							"position": "U.S. Rep.",
+							"state": "MN",
+							"date": "January 3, 2024"
+						},
+						{
+							"id": 148,
+							"name": "Cindy Hyde-Smith",
+							"position": "U.S. Sen.",
+							"state": "MS",
+							"date": "April 3, 2023"
+						},
+						{
+							"id": 149,
+							"name": "Roger Wicker",
+							"position": "U.S. Sen.",
+							"state": "MS",
+							"date": "December 11, 2023"
+						},
+						{
+							"id": 150,
+							"name": "Mike Ezell",
+							"position": "U.S. Rep.",
+							"state": "MS",
+							"date": "December 11, 2023"
+						},
+						{
+							"id": 151,
+							"name": "Michael Guest",
+							"position": "U.S. Rep.",
+							"state": "MS",
+							"date": "December 11, 2023"
+						},
+						{
+							"id": 152,
+							"name": "Trent Kelly",
+							"position": "U.S. Rep.",
+							"state": "MS",
+							"date": "December 11, 2023"
+						},
+						{
+							"id": 153,
+							"name": "Tate Reeves",
+							"position": "Governor",
+							"state": "MS",
+							"date": "October 23, 2023"
+						},
+						{
+							"id": 154,
+							"name": "Mike Chaney",
+							"position": "Commissioner of Insurance and State Fire Marshal",
+							"state": "MS",
+							"date": "December 11, 2023"
+						},
+						{
+							"id": 155,
+							"name": "Lynn Fitch",
+							"position": "Attorney General",
+							"state": "MS",
+							"date": "December 11, 2023"
+						},
+						{
+							"id": 156,
+							"name": "Andy Gipson",
+							"position": "Commissioner of Agriculture and Commerce",
+							"state": "MS",
+							"date": "December 11, 2023"
+						},
+						{
+							"id": 157,
+							"name": "Delbert Hosemann",
+							"position": "Lieutenant Governor",
+							"state": "MS",
+							"date": "December 11, 2023"
+						},
+						{
+							"id": 158,
+							"name": "David McRae",
+							"position": "Treasurer",
+							"state": "MS",
+							"date": "November 30, 2023"
+						},
+						{
+							"id": 159,
+							"name": "Shad White",
+							"position": "Auditor",
+							"state": "MS",
+							"date": "December 11, 2023"
+						},
+						{
+							"id": 160,
+							"name": "Josh Hawley",
+							"position": "U.S. Sen.",
+							"state": "MO",
+							"date": "December 12, 2023"
+						},
+						{
+							"id": 161,
+							"name": "Eric Schmitt",
+							"position": "U.S. Sen.",
+							"state": "MO",
+							"date": "January 30, 2023"
+						},
+						{
+							"id": 162,
+							"name": "Mark Alford",
+							"position": "U.S. Rep.",
+							"state": "MO",
+							"date": "December 28, 2023"
+						},
+						{
+							"id": 163,
+							"name": "Eric Burlison",
+							"position": "U.S. Rep.",
+							"state": "MO",
+							"date": "November 17, 2023"
+						},
+						{
+							"id": 164,
+							"name": "Sam Graves",
+							"position": "U.S. Rep.",
+							"state": "MO",
+							"date": "January 10, 2024"
+						},
+						{
+							"id": 165,
+							"name": "Jason Smith",
+							"position": "U.S. Rep.",
+							"state": "MO",
+							"date": "December 22, 2023"
+						},
+						{
+							"id": 166,
+							"name": "Ann Wagner",
+							"position": "U.S. Rep.",
+							"state": "MO",
+							"date": "February 10, 2024"
+						},
+						{
+							"id": 167,
+							"name": "Mike Parson",
+							"position": "Governor",
+							"state": "MO",
+							"date": "February 28, 2024"
+						},
+						{
+							"id": 168,
+							"name": "Dean Plocher",
+							"position": "House Speaker",
+							"state": "MO",
+							"date": "February 28, 2024"
+						},
+						{
+							"id": 169,
+							"name": "Jay Ashcroft",
+							"position": "Secretary of State",
+							"state": "MO",
+							"date": "January 24, 2024"
+						},
+						{
+							"id": 170,
+							"name": "Andrew Bailey",
+							"position": "Attorney General",
+							"state": "MO",
+							"date": "May 22, 2023"
+						},
+						{
+							"id": 171,
+							"name": "Scott Fitzpatrick",
+							"position": "Auditor",
+							"state": "MO",
+							"date": "February 28, 2024"
+						},
+						{
+							"id": 172,
+							"name": "Mike Kehoe",
+							"position": "Lieutenant Governor",
+							"state": "MO",
+							"date": "January 23, 2024"
+						},
+						{
+							"id": 173,
+							"name": "Vivek Malek",
+							"position": "Treasurer",
+							"state": "MO",
+							"date": "January 24, 2024"
+						},
+						{
+							"id": 174,
+							"name": "Matt Rosendale",
+							"position": "U.S. Rep.",
+							"state": "MT",
+							"date": "October 18, 2023"
+						},
+						{
+							"id": 175,
+							"name": "Ryan K. Zinke",
+							"position": "U.S. Rep.",
+							"state": "MT",
+							"date": "November 28, 2023"
+						},
+						{
+							"id": 176,
+							"name": "Austin Knudsen",
+							"position": "Attorney General",
+							"state": "MT",
+							"date": "August 10, 2024"
+						},
+						{
+							"id": 177,
+							"name": "Elsie Arntzen",
+							"position": "Superintendent of Public Instruction",
+							"state": "MT",
+							"date": "December 4, 2023"
+						},
+						{
+							"id": 178,
+							"name": "Troy Downing",
+							"position": "Auditor",
+							"state": "MT",
+							"date": "February 11, 2024"
+						},
+						{
+							"id": 179,
+							"name": "Christi Jacobsen",
+							"position": "Secretary of State",
+							"state": "MT",
+							"date": "August 10, 2024"
+						},
+						{
+							"id": 180,
+							"name": "Deb Fischer",
+							"position": "U.S. Sen.",
+							"state": "NE",
+							"date": "January 23, 2024"
+						},
+						{
+							"id": 181,
+							"name": "Pete Ricketts",
+							"position": "U.S. Sen.",
+							"state": "NE",
+							"date": "March 6, 2024"
+						},
+						{
+							"id": 182,
+							"name": "Don Bacon",
+							"position": "U.S. Rep.",
+							"state": "NE",
+							"date": "March 6, 2024"
+						},
+						{
+							"id": 183,
+							"name": "Mike Flood",
+							"position": "U.S. Rep.",
+							"state": "NE",
+							"date": "February 6, 2024"
+						},
+						{
+							"id": 184,
+							"name": "Adrian Smith",
+							"position": "U.S. Rep.",
+							"state": "NE",
+							"date": "May 11, 2024"
+						},
+						{
+							"id": 185,
+							"name": "Mark Amodei",
+							"position": "U.S. Rep.",
+							"state": "NV",
+							"date": "April 17, 2024"
+						},
+						{
+							"id": 186,
+							"name": "Joe Lombardo",
+							"position": "Governor",
+							"state": "NV",
+							"date": "January 18, 2024"
+						},
+						{
+							"id": 187,
+							"name": "Stavros Anthony",
+							"position": "Lieutenant Governor",
+							"state": "NV",
+							"date": "January 18, 2024"
+						},
+						{
+							"id": 188,
+							"name": "Chris Sununu",
+							"position": "Governor",
+							"state": "NH",
+							"date": "March 8, 2024"
+						},
+						{
+							"id": 189,
+							"name": "Thomas Kean Jr.",
+							"position": "U.S. Rep.",
+							"state": "NJ",
+							"date": "May 30, 2024"
+						},
+						{
+							"id": 190,
+							"name": "Chris Smith",
+							"position": "U.S. Rep.",
+							"state": "NJ",
+							"date": "May 23, 2024"
+						},
+						{
+							"id": 191,
+							"name": "Jeff Van Drew",
+							"position": "U.S. Rep.",
+							"state": "NJ",
+							"date": "November 15, 2022"
+						},
+						{
+							"id": 192,
+							"name": "Anthony D'Esposito",
+							"position": "U.S. Rep.",
+							"state": "NY",
+							"date": "February 26, 2024"
+						},
+						{
+							"id": 193,
+							"name": "George Devolder-Santos",
+							"position": "U.S. Rep.",
+							"state": "NY",
+							"date": "May 7, 2023"
+						},
+						{
+							"id": 194,
+							"name": "Nicholas J. LaLota",
+							"position": "U.S. Rep.",
+							"state": "NY",
+							"date": "January 20, 2024"
+						},
+						{
+							"id": 195,
+							"name": "Nick Langworthy",
+							"position": "U.S. Rep.",
+							"state": "NY",
+							"date": "January 14, 2024"
+						},
+						{
+							"id": 196,
+							"name": "Michael Lawler",
+							"position": "U.S. Rep.",
+							"state": "NY",
+							"date": "June 9, 2024"
+						},
+						{
+							"id": 197,
+							"name": "Nicole Malliotakis",
+							"position": "U.S. Rep.",
+							"state": "NY",
+							"date": "January 20, 2024"
+						},
+						{
+							"id": 198,
+							"name": "Elise Stefanik",
+							"position": "U.S. Rep.",
+							"state": "NY",
+							"date": "November 11, 2022"
+						},
+						{
+							"id": 199,
+							"name": "Claudia Tenney",
+							"position": "U.S. Rep.",
+							"state": "NY",
+							"date": "January 5, 2024"
+						},
+						{
+							"id": 200,
+							"name": "Brandon Williams",
+							"position": "U.S. Rep.",
+							"state": "NY",
+							"date": "January 23, 2024"
+						}
+					]
+				},
+				"campaignFinance": {
+					"totalRaised": 1000000,
+					"totalSpent": 800000,
+					"cashOnHand": 200000,
+					"debt": 50000,
+					"dateLastReported": "2024-08-30T12:00:00Z"
+				},
 			},
 			{
 				"id": "2",

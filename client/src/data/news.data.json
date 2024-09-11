@@ -6,7 +6,123 @@
 				"name": "Donald Trump",
 				"party": "Republican",
 				"pollingPercentage": 48.3,
-				"trend": "up"
+				"biography": {
+					"birthYear": 1946,
+					"birthPlace": "Queens, New York",
+					"education": {
+						"school": "Wharton School of Finance",
+						"degree": "B.S. in Economics",
+						"graduationYear": 1968
+					},
+					"businessCareer": {
+						"company": "Trump Organization",
+						"role": "CEO",
+						"yearsActive": "1971-present"
+					},
+					"mediaCareer": {
+						"show": "The Apprentice",
+						"role": "Host and Executive Producer",
+						"yearsActive": "2004-2015"
+					}
+				},
+				"previousOffices": {
+					"presidency": {
+						"startYear": 2017,
+						"endYear": 2021
+					}
+				},
+				"electionHistory": {
+					"2016": {
+						"opponent": "Hillary Clinton",
+						"electoralVotes": 304,
+						"opponentElectoralVotes": 227
+					},
+					"2020": {
+						"opponent": "Joe Biden",
+						"electoralVotes": 232,
+						"opponentElectoralVotes": 306
+					}
+				},
+				"policyPositions": {
+					"immigration": {
+						"stance": "End catch-and-release, restore Remain in Mexico, merit-based system.",
+						"additionalStance": "Secure border and reduce illegal immigration, including deporting criminal aliens and building more border walls."
+					},
+					"abortion": {
+						"stance": "Supports ending Roe v. Wade, states to decide on abortion laws."
+					},
+					"healthcare": {
+						"stance": "Expand healthcare choice, eliminate Obamacare mandate, lower drug prices."
+					},
+					"economy": {
+						"stance": "Lower taxes, reduce regulations, increase wages.",
+						"additionalStances": [
+							"Opposes cuts to Medicare and Social Security.",
+							"Plans to unleash domestic energy production to control inflation."
+						]
+					},
+					"education": {
+						"stance": "Supports universal school choice, return education control to states.",
+						"additionalStances": [
+							"Supports the right of parents to have a say in school curricula.",
+							"Plans to close the Department of Education in Washington, D.C."
+						]
+					},
+					"foreignPolicy": {
+						"stance": "Pursue peace through strength, focus on economic security as national security.",
+						"additionalStances": [
+							"Restrict Chinese ownership of U.S. infrastructure and critical assets.",
+							"End proxy wars and prioritize peace talks."
+						]
+					},
+					"criminalJustice": {
+						"stance": "Strengthen law enforcement, support law and order.",
+						"additionalStances": [
+							"Increase funding for police, protect qualified immunity for officers."
+						]
+					},
+					"gunRights": {
+						"stance": "Defend the Second Amendment."
+					},
+					"climateChange": {
+						"stance": "Reject Green New Deal, focus on energy independence.",
+						"additionalStances": [
+							"Exit Paris Climate Accord, end subsidies for wind energy, promote domestic oil and gas production."
+						]
+					},
+					"administrativeState": {
+						"stance": "Fire rogue bureaucrats, reform federal agencies.",
+						"additionalStances": [
+							"Move federal government jobs outside Washington D.C., crack down on government leaks."
+						]
+					},
+					"trade": {
+						"stance": "Implement tariffs to reward domestic production, restrict foreign trade practices.",
+						"additionalStances": [
+							"Promote reshoring of manufacturing and secure supply chains."
+						]
+					},
+					"genderIssues": {
+						"stance": "Recognize only male and female genders assigned at birth."
+					},
+					"veterans": {
+						"stance": "Improve services for veterans, reduce veteran homelessness."
+					},
+					"infrastructure": {
+						"stance": "Build new 'Freedom Cities', improve parks, beautify public spaces."
+					},
+					"drugCrisis": {
+						"stance": "Combat opioid crisis, dismantle drug cartels."
+					},
+					"electionPolicy": {
+						"stance": "Reform election laws to secure integrity, ban ballot harvesting."
+					}
+				},
+				"runningMate": {
+					"name": "J.D. Vance",
+					"position": "U.S. Senator from Ohio",
+					"announcementDate": "2024-07-15"
+				}
 			},
 			{
 				"id": "2",
@@ -18,8 +134,15 @@
 			{
 				"id": "3",
 				"name": "Jill Stein",
-				"party": "Independent",
+				"party": "Green-Rainbow",
 				"pollingPercentage": 5.0,
+				"trend": "stable"
+			},
+			{
+				"id": "4",
+				"name": "Chase Oliver",
+				"party": "Libertarian",
+				"pollingPercentage": 0.0,
 				"trend": "stable"
 			}
 		],

@@ -1530,33 +1530,91 @@
 					]
 				},
 				"campaignFinance": {
-					"totalRaised": 1000000,
-					"totalSpent": 800000,
-					"cashOnHand": 200000,
-					"debt": 50000,
-					"dateLastReported": "2024-08-30T12:00:00Z"
-				},
+					"candidate": "Donald Trump",
+					"party": "Republican",
+					"committees": [
+						{
+							"name": "DONALD J. TRUMP FOR PRESIDENT 2024, INC.",
+							"id": "C00828541",
+							"coverage": {
+								"startDate": "11/15/2022",
+								"endDate": "08/08/2024"
+							}
+						},
+						{
+							"name": "DONALD J. TRUMP REPUBLICAN NOMINEE FUND 2024",
+							"id": "C00867275",
+							"coverage": {
+								"startDate": "11/15/2022",
+								"endDate": "08/08/2024"
+							}
+						}
+					],
+					"totalRaised": {
+						"receipts": 268541782.57,
+						"contributions": {
+							"total": 18406999.61,
+							"individual": {
+								"total": 18171010.66,
+								"itemized": 10749345.0,
+								"unitemized": 7421666.0
+							},
+							"partyCommittee": 0,
+							"otherCommittee": 235988.95,
+							"candidate": 0,
+							"transfersFromOtherCommittees": 244312578.46
+						},
+						"loansReceived": 0,
+						"offsetsToExpenditures": {
+							"total": 4430169.08,
+							"operating": 4430169.08,
+							"fundraising": 0,
+							"legalAndAccounting": 0
+						},
+						"otherReceipts": 1392035.42
+					},
+					"totalSpent": {
+						"disbursements": 117201467.72,
+						"operatingExpenditures": 117155928.77,
+						"transfersToOtherCommittees": 29133.95,
+						"fundraising": 0,
+						"loanRepayments": {
+							"total": 0,
+							"candidateLoans": 0,
+							"otherLoans": 0
+						},
+						"contributionRefunds": {
+							"total": 1800,
+							"individual": 800,
+							"politicalParty": 0,
+							"otherCommittees": 1000
+						},
+						"otherDisbursements": 14605.0
+					},
+					"cashSummary": {
+						"endingCashOnHand": 151340314.85,
+						"debtsLoansOwedToCommittee": 809963.24,
+						"debtsLoansOwedByCommittee": 15232.93
+					}
+				}
 			},
 			{
 				"id": "2",
 				"name": "Kamala Harris",
 				"party": "Democrat",
-				"pollingPercentage": 46.7,
-				"trend": "down"
+				"pollingPercentage": 46.7
 			},
 			{
 				"id": "3",
 				"name": "Jill Stein",
 				"party": "Green-Rainbow",
-				"pollingPercentage": 5.0,
-				"trend": "stable"
+				"pollingPercentage": 5.0
 			},
 			{
 				"id": "4",
 				"name": "Chase Oliver",
 				"party": "Libertarian",
-				"pollingPercentage": 0.0,
-				"trend": "stable"
+				"pollingPercentage": 0.0
 			}
 		],
 		"lastUpdated": "2024-08-30T12:00:00Z"
@@ -1564,46 +1622,129 @@
 	"keyElectionIssues": [
 		{
 			"id": "1",
-			"name": "Economy",
-			"description": "Focuses on job creation, inflation, and economic growth.",
+			"issue": "Economy",
 			"candidateStances": [
 				{
 					"candidateId": "1",
-					"stance": "Supports increased government spending on infrastructure."
+					"name": "Donald Trump",
+					"stance": "Lower taxes, reduce regulations, increase wages, oppose cuts to Medicare and Social Security."
 				},
 				{
 					"candidateId": "2",
-					"stance": "Advocates for tax cuts to stimulate economic growth."
+					"name": "Kamala Harris",
+					"stance": "Increase government spending on infrastructure and raise taxes on wealthy individuals."
 				}
 			]
 		},
 		{
 			"id": "2",
-			"name": "Healthcare",
-			"description": "Addresses healthcare accessibility and affordability.",
+			"issue": "Immigration",
 			"candidateStances": [
 				{
 					"candidateId": "1",
-					"stance": "Proposes expanding Medicare for all."
+					"name": "Donald Trump",
+					"stance": "End catch-and-release, restore Remain in Mexico, enforce a merit-based immigration system."
 				},
 				{
 					"candidateId": "2",
-					"stance": "Supports a market-driven healthcare system."
+					"name": "Kamala Harris",
+					"stance": "Create a pathway to citizenship for undocumented immigrants and reduce reliance on detention."
 				}
 			]
 		},
 		{
 			"id": "3",
-			"name": "Climate Change",
-			"description": "Focuses on environmental policies and renewable energy.",
+			"issue": "Healthcare",
 			"candidateStances": [
 				{
 					"candidateId": "1",
-					"stance": "Advocates for aggressive carbon emission reduction targets."
+					"name": "Donald Trump",
+					"stance": "Expand healthcare choice, eliminate the Obamacare mandate, and lower drug prices."
 				},
 				{
 					"candidateId": "2",
-					"stance": "Supports balanced approach between economy and environment."
+					"name": "Kamala Harris",
+					"stance": "Proposes expanding Medicare for all, reducing prescription drug costs, and ensuring universal healthcare coverage."
+				}
+			]
+		},
+		{
+			"id": "4",
+			"issue": "Abortion",
+			"candidateStances": [
+				{
+					"candidateId": "1",
+					"name": "Donald Trump",
+					"stance": "Supports ending Roe v. Wade and letting states decide abortion laws."
+				},
+				{
+					"candidateId": "2",
+					"name": "Kamala Harris",
+					"stance": "Defends abortion rights, supports legislation to codify Roe v. Wade into federal law."
+				}
+			]
+		},
+		{
+			"id": "5",
+			"issue": "Climate Change",
+			"candidateStances": [
+				{
+					"candidateId": "1",
+					"name": "Donald Trump",
+					"stance": "Rejects the Green New Deal, promotes energy independence, and supports increased oil and gas production."
+				},
+				{
+					"candidateId": "2",
+					"name": "Kamala Harris",
+					"stance": "Supports aggressive carbon reduction targets, investment in renewable energy, and rejoining the Paris Climate Accord."
+				}
+			]
+		},
+		{
+			"id": "6",
+			"issue": "Criminal Justice",
+			"candidateStances": [
+				{
+					"candidateId": "1",
+					"name": "Donald Trump",
+					"stance": "Supports law and order, increase funding for police, protect qualified immunity for officers."
+				},
+				{
+					"candidateId": "2",
+					"name": "Kamala Harris",
+					"stance": "Proposes criminal justice reform, ending cash bail, and reducing mass incarceration."
+				}
+			]
+		},
+		{
+			"id": "7",
+			"issue": "Gun Rights",
+			"candidateStances": [
+				{
+					"candidateId": "1",
+					"name": "Donald Trump",
+					"stance": "Defend the Second Amendment and oppose further gun restrictions."
+				},
+				{
+					"candidateId": "2",
+					"name": "Kamala Harris",
+					"stance": "Supports stronger background checks and banning assault weapons."
+				}
+			]
+		},
+		{
+			"id": "8",
+			"issue": "Foreign Policy",
+			"candidateStances": [
+				{
+					"candidateId": "1",
+					"name": "Donald Trump",
+					"stance": "Pursue peace through strength, restrict Chinese ownership of critical U.S. assets, and end proxy wars."
+				},
+				{
+					"candidateId": "2",
+					"name": "Kamala Harris",
+					"stance": "Support diplomatic efforts, strengthen alliances, and prioritize human rights in foreign policy."
 				}
 			]
 		}

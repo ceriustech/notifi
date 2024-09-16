@@ -10,20 +10,37 @@
 				"biography": {
 					"birthYear": 1946,
 					"birthPlace": "Queens, New York",
-					"education": {
-						"school": "Wharton School of Finance",
-						"degree": "B.S. in Economics",
-						"graduationYear": 1968
-					},
-					"businessCareer": {
-						"company": "Trump Organization",
-						"role": "CEO",
-						"yearsActive": "1971-present"
-					},
-					"mediaCareer": {
-						"show": "The Apprentice",
-						"role": "Host and Executive Producer",
-						"yearsActive": "2004-2015"
+					"education": [
+						{
+							"school": "Fordham University",
+							"degree": "No degree (Transferred)",
+							"graduationYear": 1966
+						},
+						{
+							"school": "University of Pennsylvania, Wharton School",
+							"degree": "B.S. in Economics",
+							"graduationYear": 1968
+						}
+					],
+					"career": {
+						"roles": [
+							{
+								"role": "45th President of the United States",
+								"yearsActive": "2017-2021"
+							},
+							{
+								"role": "Real Estate Developer",
+								"yearsActive": "1971-present"
+							},
+							{
+								"role": "Television Host of 'The Apprentice'",
+								"yearsActive": "2004-2015"
+							},
+							{
+								"role": "Chairman of Trump Organization",
+								"yearsActive": "1971-present"
+							}
+						]
 					}
 				},
 				"previousOffices": {
@@ -1602,7 +1619,1239 @@
 				"id": "2",
 				"name": "Kamala Harris",
 				"party": "Democrat",
-				"pollingPercentage": 46.7
+				"pollingPercentage": 46.7,
+				"trend": "up",
+				"biography": {
+					"birthYear": 1964,
+					"birthPlace": "Oakland, California",
+					"education": [
+						{
+							"school": "Howard University",
+							"degree": "B.A. in Political Science and Economics",
+							"graduationYear": 1986
+						},
+						{
+							"school": "University of California, Hastings",
+							"degree": "J.D.",
+							"graduationYear": 1989
+						}
+					],
+					"career": {
+						"roles": [
+							{
+								"role": "Vice President of the United States",
+								"yearsActive": "2021-present"
+							},
+							{
+								"role": "U.S. Senator from California",
+								"yearsActive": "2017-2021"
+							},
+							{
+								"role": "Attorney General of California",
+								"yearsActive": "2011-2017"
+							},
+							{
+								"role": "San Francisco District Attorney",
+								"yearsActive": "2004-2011"
+							}
+						]
+					}
+				},
+				"previousOffices": {
+					"vicePresidency": {
+						"startYear": 2021,
+						"endYear": null
+					},
+					"senate": {
+						"startYear": 2017,
+						"endYear": 2021
+					},
+					"attorneyGeneral": {
+						"startYear": 2011,
+						"endYear": 2017
+					},
+					"districtAttorney": {
+						"startYear": 2004,
+						"endYear": 2011
+					}
+				},
+				"electionHistory": {
+					"2024": {
+						"opponent": "Donald Trump",
+						"status": "ongoing"
+					},
+					"2020": {
+						"role": "Vice President",
+						"president": "Joe Biden"
+					}
+				},
+				"policyPositions": {
+					"economy": {
+						"stance": "Build an opportunity economy, cut taxes for middle-class families, lower costs for healthcare, housing, and groceries.",
+						"additionalStances": [
+							"Provide a $6,000 tax cut to families with newborn children.",
+							"Promote American-based technology and innovation.",
+							"Support labor unions and small businesses."
+						]
+					},
+					"healthcare": {
+						"stance": "Expand the Affordable Care Act, cap drug prices, and cancel medical debt.",
+						"additionalStances": [
+							"Capped insulin prices at $35 and out-of-pocket drug spending at $2,000 for seniors.",
+							"Address maternal mortality rates and expand Medicaid postpartum coverage."
+						]
+					},
+					"abortion": {
+						"stance": "Restore reproductive rights and sign a national law to protect reproductive freedom."
+					},
+					"immigration": {
+						"stance": "Support bipartisan border security, reform immigration system, and provide a pathway to citizenship.",
+						"additionalStances": [
+							"Deploy more detection technology to intercept fentanyl.",
+							"Hire more border agents."
+						]
+					},
+					"climateChange": {
+						"stance": "Expand clean energy investments, reduce household energy costs, and address environmental justice.",
+						"additionalStances": [
+							"Protect public lands and public health.",
+							"Hold polluters accountable."
+						]
+					},
+					"gunControl": {
+						"stance": "Ban assault weapons and high-capacity magazines, expand background checks.",
+						"additionalStances": [
+							"Support red flag laws to prevent gun violence."
+						]
+					},
+					"criminalJustice": {
+						"stance": "Support funding law enforcement, reduce gun violence, and secure communities.",
+						"additionalStances": [
+							"Ban assault weapons and implement proven gun violence prevention programs."
+						]
+					},
+					"foreignPolicy": {
+						"stance": "Defend U.S. security, strengthen alliances, and maintain a strong military.",
+						"additionalStances": [
+							"Stand with Israel and pursue a two-state solution.",
+							"Continue supporting Ukraine against Russian aggression."
+						]
+					},
+					"veterans": {
+						"stance": "Expand veteran benefits and address veteran homelessness.",
+						"additionalStances": [
+							"Invest in mental health services and job opportunities for veterans."
+						]
+					},
+					"education": {
+						"stance": "Strengthen public education, make college more affordable, and support childcare.",
+						"additionalStances": [
+							"Provide student loan relief and expand Pell Grants.",
+							"Increase support for HBCUs and community colleges."
+						]
+					},
+					"electionPolicy": {
+						"stance": "Pass the John Lewis Voting Rights Act, expand vote-by-mail and early voting."
+					}
+				},
+				"runningMate": {
+					"name": "Tim Walz",
+					"position": "Governor of Minnesota",
+					"announcementDate": "2024-08-06"
+				},
+				"endorsements": {
+					"totalEndorsements": 100,
+					"endorsements": [
+						{
+							"id": 1,
+							"name": "Hillary Clinton",
+							"position": "2016 presidential nominee",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 2,
+							"name": "AAPI Victory Fund, Inc.",
+							"position": null,
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 3,
+							"name": "American Federation of Teachers",
+							"position": null,
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 4,
+							"name": "Kris Mayes",
+							"position": "Arizona Attorney General",
+							"state": "AZ",
+							"date": "July 23, 2024"
+						},
+						{
+							"id": 5,
+							"name": "Brandon Scott",
+							"position": "Baltimore Mayor",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 6,
+							"name": "Rob Bonta",
+							"position": "California Attorney General",
+							"state": "CA",
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 7,
+							"name": "Gavin Newsom",
+							"position": "California Gov.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 8,
+							"name": "Eleni Kounalakis",
+							"position": "California Lt. Gov.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 9,
+							"name": "Brandon Johnson",
+							"position": "Chicago Mayor",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 10,
+							"name": "Phil Weiser",
+							"position": "Colorado Attorney General",
+							"state": "CO",
+							"date": "July 23, 2024"
+						},
+						{
+							"id": 11,
+							"name": "Jared Polis",
+							"position": "Colorado Gov.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 12,
+							"name": "Jena Griswold",
+							"position": "Colorado Secretary of State",
+							"state": "CO",
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 13,
+							"name": "Congressional Black Caucus",
+							"position": null,
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 14,
+							"name": "William Tong",
+							"position": "Connecticut Attorney General",
+							"state": "CT",
+							"date": "July 22, 2024"
+						},
+						{
+							"id": 15,
+							"name": "Kathy Jennings",
+							"position": "Delaware Attorney General",
+							"state": "DE",
+							"date": "July 22, 2024"
+						},
+						{
+							"id": 16,
+							"name": "EMILY's List",
+							"position": null,
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 17,
+							"name": "Stacey Abrams",
+							"position": "Frmr. Georgia state Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 18,
+							"name": "Barack Obama",
+							"position": "Frmr. President",
+							"state": null,
+							"date": "July 26, 2024"
+						},
+						{
+							"id": 19,
+							"name": "Bill Clinton",
+							"position": "Frmr. President",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 20,
+							"name": "John Kerry",
+							"position": "Frmr. Secretary of State",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 21,
+							"name": "Katie Hobbs",
+							"position": "Gov., Arizona",
+							"state": "AZ",
+							"date": "July 22, 2024"
+						},
+						{
+							"id": 22,
+							"name": "Ned Lamont",
+							"position": "Gov., Connecticut",
+							"state": "CT",
+							"date": "July 22, 2024"
+						},
+						{
+							"id": 23,
+							"name": "John C. Carney Jr.",
+							"position": "Gov., Delaware",
+							"state": "DE",
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 24,
+							"name": "Lou Leon Guerrero",
+							"position": "Gov., Guam",
+							"state": null,
+							"date": "September 15, 2024"
+						},
+						{
+							"id": 25,
+							"name": "Josh Green",
+							"position": "Gov., Hawaii",
+							"state": "HI",
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 26,
+							"name": "Laura Kelly",
+							"position": "Gov., Kansas",
+							"state": "KS",
+							"date": "July 22, 2024"
+						},
+						{
+							"id": 27,
+							"name": "Maura Healey",
+							"position": "Gov., Massachusetts",
+							"state": "MA",
+							"date": "July 22, 2024"
+						},
+						{
+							"id": 28,
+							"name": "Tim Walz",
+							"position": "Gov., Minnesota",
+							"state": "MN",
+							"date": "July 22, 2024"
+						},
+						{
+							"id": 29,
+							"name": "Michelle Lujan Grisham",
+							"position": "Gov., New Mexico",
+							"state": "NM",
+							"date": "July 22, 2024"
+						},
+						{
+							"id": 30,
+							"name": "Tina Kotek",
+							"position": "Gov., Oregon",
+							"state": "OR",
+							"date": "July 22, 2024"
+						},
+						{
+							"id": 31,
+							"name": "Daniel McKee",
+							"position": "Gov., Rhode Island",
+							"state": "RI",
+							"date": "July 22, 2024"
+						},
+						{
+							"id": 32,
+							"name": "Jay Inslee",
+							"position": "Gov., Washington",
+							"state": "WA",
+							"date": "July 22, 2024"
+						},
+						{
+							"id": 33,
+							"name": "Tony Evers",
+							"position": "Gov., Wisconsin",
+							"state": "WI",
+							"date": "July 22, 2024"
+						},
+						{
+							"id": 34,
+							"name": "Human Rights Campaign",
+							"position": null,
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 35,
+							"name": "Kwame Raoul",
+							"position": "Illinois Attorney General",
+							"state": "IL",
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 36,
+							"name": "J.B. Pritzker",
+							"position": "Illinois Gov.",
+							"state": null,
+							"date": "July 22, 2024"
+						},
+						{
+							"id": 37,
+							"name": "Alexi Giannoulias",
+							"position": "Illinois Secretary of State",
+							"state": "IL",
+							"date": "July 23, 2024"
+						},
+						{
+							"id": 38,
+							"name": "Indivisible Project",
+							"position": null,
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 39,
+							"name": "Andy Beshear",
+							"position": "Kentucky Gov.",
+							"state": null,
+							"date": "July 22, 2024"
+						},
+						{
+							"id": 40,
+							"name": "Karen Bass",
+							"position": "Los Angeles Mayor",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 41,
+							"name": "Aaron Frey",
+							"position": "Maine Attorney General",
+							"state": "ME",
+							"date": "July 23, 2024"
+						},
+						{
+							"id": 42,
+							"name": "Janet T. Mills",
+							"position": "Maine Gov.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 43,
+							"name": "Shenna Bellows",
+							"position": "Maine Secretary of State",
+							"state": "ME",
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 44,
+							"name": "Anthony Brown",
+							"position": "Maryland Attorney General",
+							"state": "MD",
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 45,
+							"name": "Wes Moore",
+							"position": "Maryland Gov.",
+							"state": null,
+							"date": "July 22, 2024"
+						},
+						{
+							"id": 46,
+							"name": "Andrew Campbell",
+							"position": "Massachusetts Attorney General",
+							"state": "MA",
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 47,
+							"name": "Dana Nessel",
+							"position": "Michigan Attorney General",
+							"state": "MI",
+							"date": "July 25, 2024"
+						},
+						{
+							"id": 48,
+							"name": "Gretchen Whitmer",
+							"position": "Michigan Gov.",
+							"state": null,
+							"date": "July 22, 2024"
+						},
+						{
+							"id": 49,
+							"name": "Keith Ellison",
+							"position": "Minnesota Attorney General",
+							"state": "MN",
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 50,
+							"name": "Aaron Ford",
+							"position": "Nevada Attorney General",
+							"state": "NV",
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 51,
+							"name": "Phil Murphy",
+							"position": "New Jersey Gov.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 52,
+							"name": "Raul Torrez",
+							"position": "New Mexico Attorney General",
+							"state": "NM",
+							"date": "July 23, 2024"
+						},
+						{
+							"id": 53,
+							"name": "Letitia James",
+							"position": "New York Attorney General",
+							"state": "NY",
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 54,
+							"name": "Kathy Hochul",
+							"position": "New York Gov.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 55,
+							"name": "Josh Stein",
+							"position": "North Carolina Attorney General",
+							"state": "NC",
+							"date": "July 23, 2024"
+						},
+						{
+							"id": 56,
+							"name": "Roy Cooper",
+							"position": "North Carolina Gov.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 57,
+							"name": "Ellen Rosenblum",
+							"position": "Oregon Attorney General",
+							"state": "OR",
+							"date": "July 23, 2024"
+						},
+						{
+							"id": 58,
+							"name": "Michelle Henry",
+							"position": "Pennsylvania Attorney General",
+							"state": "PA",
+							"date": "July 23, 2024"
+						},
+						{
+							"id": 59,
+							"name": "Josh Shapiro",
+							"position": "Pennsylvania Gov.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 60,
+							"name": "Joe Biden",
+							"position": "President",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 61,
+							"name": "Bernice King",
+							"position": "President of the Martin Luther King Jr. Center for Nonviolent Social Change",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 62,
+							"name": "Peter Neronha",
+							"position": "Rhode Island Attorney General",
+							"state": "RI",
+							"date": "July 25, 2024"
+						},
+						{
+							"id": 63,
+							"name": "Gregg Amore",
+							"position": "Rhode Island Secretary of State",
+							"state": "RI",
+							"date": "July 22, 2024"
+						},
+						{
+							"id": 64,
+							"name": "Service Employees International Union",
+							"position": null,
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 65,
+							"name": "Justin Pearson",
+							"position": "Tenn. state Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 66,
+							"name": "Justin Jones",
+							"position": "Tenn. state Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 67,
+							"name": "Adam Schiff",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 68,
+							"name": "Alexandria Ocasio-Cortez",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 69,
+							"name": "Alma Adams",
+							"position": "U.S. Rep.",
+							"state": "NC",
+							"date": "July 22, 2024"
+						},
+						{
+							"id": 70,
+							"name": "Ami Bera",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 71,
+							"name": "André Carson",
+							"position": "U.S. Rep.",
+							"state": "IN",
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 72,
+							"name": "Annie Kuster",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 73,
+							"name": "Ayanna Pressley",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 74,
+							"name": "Becca Balint",
+							"position": "U.S. Rep.",
+							"state": "VT",
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 75,
+							"name": "Bennie Thompson",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 76,
+							"name": "Bill Keating",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 77,
+							"name": "Brad Schneider",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 78,
+							"name": "Brendan Boyle",
+							"position": "U.S. Rep.",
+							"state": "PA",
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 79,
+							"name": "Colin Allred",
+							"position": "U.S. Rep.",
+							"state": "TX",
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 80,
+							"name": "Cori Bush",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 81,
+							"name": "Dan Kildee",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 82,
+							"name": "Dean Phillips",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 83,
+							"name": "Debbie Dingell",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 84,
+							"name": "Debbie Wasserman Schultz",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 85,
+							"name": "Delia Ramirez",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 86,
+							"name": "Donald Sternoff Beyer Jr.",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 87,
+							"name": "Earl Blumenauer",
+							"position": "U.S. Rep.",
+							"state": "OR",
+							"date": "July 22, 2024"
+						},
+						{
+							"id": 88,
+							"name": "Ed Case",
+							"position": "U.S. Rep.",
+							"state": "HI",
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 89,
+							"name": "Emilia Sykes",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 90,
+							"name": "Eric Swalwell",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 91,
+							"name": "Gabe Amo",
+							"position": "U.S. Rep.",
+							"state": "RI",
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 92,
+							"name": "Grace Meng",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 93,
+							"name": "Greg Casar",
+							"position": "U.S. Rep.",
+							"state": "TX",
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 94,
+							"name": "Greg Stanton",
+							"position": "U.S. Rep.",
+							"state": "AZ",
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 95,
+							"name": "Gregory W. Meeks",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 96,
+							"name": "Gwen Moore",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 97,
+							"name": "Haley Stevens",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 98,
+							"name": "Hillary Scholten",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 99,
+							"name": "Ilhan Omar",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 100,
+							"name": "Jahana Hayes",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 101,
+							"name": "Jake Auchincloss",
+							"position": "U.S. Rep.",
+							"state": "MA",
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 102,
+							"name": "Jamaal Bowman",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 103,
+							"name": "James Clyburn",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 104,
+							"name": "Jamie Raskin",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 105,
+							"name": "Jared Evan Moskowitz",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 106,
+							"name": "Jared Huffman",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 107,
+							"name": "Jasmine Crockett",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 108,
+							"name": "Jeff Jackson",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 109,
+							"name": "Jesus Garcia",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 110,
+							"name": "Jimmy Gomez",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 111,
+							"name": "Joe Courtney",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 112,
+							"name": "Joyce Beatty",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 113,
+							"name": "Julia Brownley",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 114,
+							"name": "Kathy Manning",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 115,
+							"name": "Katie Porter",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 116,
+							"name": "Lisa Blunt Rochester",
+							"position": "U.S. Rep.",
+							"state": "DE",
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 117,
+							"name": "Lizzie Pannill Fletcher",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 118,
+							"name": "Lucy McBath",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 119,
+							"name": "Mary Gay Scanlon",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 120,
+							"name": "Matt Cartwright",
+							"position": "U.S. Rep.",
+							"state": "PA",
+							"date": "July 22, 2024"
+						},
+						{
+							"id": 121,
+							"name": "Maxwell Alejandro Frost",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 122,
+							"name": "Mikie Sherrill",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 123,
+							"name": "Nanette Barragán",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 124,
+							"name": "Nikki Budzinski",
+							"position": "U.S. Rep.",
+							"state": "IL",
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 125,
+							"name": "Nydia Velazquez",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 126,
+							"name": "Paul Tonko",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 127,
+							"name": "Pete Aguilar",
+							"position": "U.S. Rep.",
+							"state": "CA",
+							"date": "July 22, 2024"
+						},
+						{
+							"id": 128,
+							"name": "Pramila Jayapal",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 129,
+							"name": "Ruben Gallego",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 130,
+							"name": "Salud Carbajal",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 131,
+							"name": "Sanford Bishop Jr.",
+							"position": "U.S. Rep.",
+							"state": "GA",
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 132,
+							"name": "Sean Casten",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 133,
+							"name": "Seth Moulton",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 134,
+							"name": "Shontel Brown",
+							"position": "U.S. Rep.",
+							"state": "OH",
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 135,
+							"name": "Shri Thanedar",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 136,
+							"name": "Steven Horsford",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 137,
+							"name": "Summer Lee",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 138,
+							"name": "Suzan DelBene",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 139,
+							"name": "Suzanne Bonamici",
+							"position": "U.S. Rep.",
+							"state": "OR",
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 140,
+							"name": "Sylvia Garcia",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 141,
+							"name": "Ted Lieu",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 142,
+							"name": "Terri Sewell",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 143,
+							"name": "Timothy M. Kennedy",
+							"position": "U.S. Rep.",
+							"state": null,
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 144,
+							"name": "Tony Cárdenas",
+							"position": "U.S. Rep.",
+							"state": "CA",
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 145,
+							"name": "Troy Carter",
+							"position": "U.S. Rep.",
+							"state": "LA",
+							"date": "July 21, 2024"
+						},
+						{
+							"id": 146,
+							"name": "Yadira Caraveo",
+							"position": "U.S. Rep.",
+							"state": "CO",
+							"date": "July 21, 2024"
+						}
+					]
+				},
+				"campaignFinance": {
+					"candidate": "Kamala Harris",
+					"party": "Democrat",
+					"committees": [
+						{
+							"name": "HARRIS FOR PRESIDENT",
+							"id": "C00703975",
+							"coverage": {
+								"startDate": "2021-01-01",
+								"endDate": "2024-07-31"
+							}
+						},
+						{
+							"name": "KAMALA HARRIS FOR THE PEOPLE",
+							"id": "C00694455",
+							"coverage": {
+								"startDate": "2021-01-01",
+								"endDate": "2024-07-31"
+							}
+						}
+					],
+					"totalRaised": {
+						"receipts": 489323032.78,
+						"contributions": {
+							"total": 236724794.55,
+							"individual": {
+								"total": 236639222.1,
+								"itemized": 136415857.0,
+								"unitemized": 100223365.0
+							},
+							"partyCommittee": 2000.0,
+							"otherCommittee": 83572.45
+						},
+						"presidentialPublicFunds": 0.0,
+						"loansReceived": 0.0,
+						"offsetsToExpenditures": {
+							"total": 4617443.76,
+							"operating": 4617443.76,
+							"fundraising": 0.0
+						},
+						"otherReceipts": 945940.05
+					},
+					"totalSpent": {
+						"disbursements": 271538713.33,
+						"operatingExpenditures": 268495964.62,
+						"transfersToOtherCommittees": 51304.42,
+						"fundraising": 0.0,
+						"loanRepayments": {
+							"total": 0.0,
+							"candidateLoans": 0.0,
+							"otherLoans": 0.0
+						},
+						"contributionRefunds": {
+							"total": 2628597.65,
+							"individual": 2629397.65,
+							"politicalParty": 0.0,
+							"otherCommittee": -800.0
+						},
+						"otherDisbursements": 362846.64
+					},
+					"cashSummary": {
+						"endingCashOnHand": 219717204.06,
+						"debtsLoansOwedToCommittee": 0.0,
+						"debtsLoansOwedByCommittee": 0.0
+					}
+				}
 			},
 			{
 				"id": "3",

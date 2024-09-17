@@ -1686,6 +1686,29 @@
 					}
 				},
 				"policyPositions": {
+					"abortion": {
+						"stance": "Defend reproductive freedom and safeguard the privacy of patients and providers.",
+						"additionalStances": [
+							"Oppose national abortion ban.",
+							"Restore reproductive freedom nationwide by signing Congress' bill.",
+							"Advocate for women's autonomy in reproductive health."
+						]
+					},
+					"criminalJustice": {
+						"stance": "Fight violent crime and support investments in law enforcement and gun violence prevention programs.",
+						"additionalStances": [
+							"Raise conviction rates for violent offenders, including gang members and gun felons.",
+							"Remove illegal guns from the streets and prosecute criminal organizations.",
+							"Invest in local law enforcement and community safety programs."
+						]
+					},
+					"policing": {
+						"stance": "Invest in funding law enforcement, including hiring and training of officers.",
+						"additionalStances": [
+							"Support officers through training and resources.",
+							"Build upon proven gun violence prevention programs."
+						]
+					},
 					"economy": {
 						"stance": "Build an opportunity economy, cut taxes for middle-class families, lower costs for healthcare, housing, and groceries.",
 						"additionalStances": [
@@ -1694,64 +1717,177 @@
 							"Support labor unions and small businesses."
 						]
 					},
-					"healthcare": {
-						"stance": "Expand the Affordable Care Act, cap drug prices, and cancel medical debt.",
+					"socialSecurity": {
+						"stance": "Protect and strengthen Social Security and Medicare.",
 						"additionalStances": [
-							"Capped insulin prices at $35 and out-of-pocket drug spending at $2,000 for seniors.",
-							"Address maternal mortality rates and expand Medicaid postpartum coverage."
+							"Ensure millionaires and billionaires pay their fair share in taxes.",
+							"Defend against efforts to reduce or privatize benefits."
 						]
 					},
-					"abortion": {
-						"stance": "Restore reproductive rights and sign a national law to protect reproductive freedom."
-					},
-					"immigration": {
-						"stance": "Support bipartisan border security, reform immigration system, and provide a pathway to citizenship.",
+					"taxes": {
+						"stance": "Provide tax cuts for more than 100 million working and middle-class Americans.",
 						"additionalStances": [
-							"Deploy more detection technology to intercept fentanyl.",
-							"Hire more border agents."
+							"Expand the Child Tax Credit to provide a $6,000 tax cut for families with newborns.",
+							"Raise taxes on the wealthiest Americans and largest corporations.",
+							"Roll back Trump's tax cuts for the rich and enact a billionaire minimum tax."
 						]
 					},
-					"climateChange": {
-						"stance": "Expand clean energy investments, reduce household energy costs, and address environmental justice.",
+					"inflation": {
+						"stance": "Tackle price gouging and reduce costs for middle-class families.",
 						"additionalStances": [
-							"Protect public lands and public health.",
-							"Hold polluters accountable."
+							"Ban hidden fees and late charges from banks and companies.",
+							"Cap unfair rent increases.",
+							"Reduce prescription drug costs by capping prices."
 						]
 					},
-					"gunControl": {
-						"stance": "Ban assault weapons and high-capacity magazines, expand background checks.",
+					"jobCreation": {
+						"stance": "Create good-paying jobs and support American manufacturing.",
 						"additionalStances": [
-							"Support red flag laws to prevent gun violence."
-						]
-					},
-					"criminalJustice": {
-						"stance": "Support funding law enforcement, reduce gun violence, and secure communities.",
-						"additionalStances": [
-							"Ban assault weapons and implement proven gun violence prevention programs."
-						]
-					},
-					"foreignPolicy": {
-						"stance": "Defend U.S. security, strengthen alliances, and maintain a strong military.",
-						"additionalStances": [
-							"Stand with Israel and pursue a two-state solution.",
-							"Continue supporting Ukraine against Russian aggression."
-						]
-					},
-					"veterans": {
-						"stance": "Expand veteran benefits and address veteran homelessness.",
-						"additionalStances": [
-							"Invest in mental health services and job opportunities for veterans."
+							"Support labor unions and collective bargaining.",
+							"Expand investments in infrastructure and clean energy industries.",
+							"Rebuild the middle class by creating jobs in semiconductors, clean energy, AI, and future industries."
 						]
 					},
 					"education": {
-						"stance": "Strengthen public education, make college more affordable, and support childcare.",
+						"stance": "Strengthen public education and ensure high-quality child care and preschool are affordable.",
 						"additionalStances": [
-							"Provide student loan relief and expand Pell Grants.",
-							"Increase support for HBCUs and community colleges."
+							"Expand investments in HBCUs and other minority-serving institutions.",
+							"Increase Pell Grants to make higher education affordable.",
+							"Reduce student loan burdens and expand career pathways for non-college graduates."
+						]
+					},
+					"collegeAffordability": {
+						"stance": "Make higher education more affordable and reduce student loan debt.",
+						"additionalStances": [
+							"Deliver nearly $170 billion in student debt relief.",
+							"Increase maximum Pell Grant awards by $900.",
+							"Invest in community colleges and vocational training."
 						]
 					},
 					"electionPolicy": {
-						"stance": "Pass the John Lewis Voting Rights Act, expand vote-by-mail and early voting."
+						"stance": "Protect voting rights and expand access to voting.",
+						"additionalStances": [
+							"Pass the John Lewis Voting Rights Act and the Freedom to Vote Act.",
+							"Expand vote-by-mail and early voting.",
+							"Protect democracy by safeguarding elections from voter suppression."
+						]
+					},
+					"energyEnvironment": {
+						"stance": "Lead efforts to combat climate change and protect the environment.",
+						"additionalStances": [
+							"Lower household energy costs.",
+							"Create clean energy jobs while ensuring energy security.",
+							"Hold polluters accountable to protect clean air and water."
+						]
+					},
+					"climateChange": {
+						"stance": "Tackle the climate crisis and advance environmental justice.",
+						"additionalStances": [
+							"Build a thriving clean energy economy.",
+							"Increase resilience to climate disasters.",
+							"Create millions of new clean energy jobs."
+						]
+					},
+					"energyProduction": {
+						"stance": "Ensure energy security while building a clean energy economy.",
+						"additionalStances": [
+							"Support record levels of clean energy production.",
+							"Expand high-quality clean energy jobs across the country.",
+							"Lower household energy costs."
+						]
+					},
+					"foreignPolicy": {
+						"stance": "Defend American security and strengthen global alliances.",
+						"additionalStances": [
+							"Support U.S. military innovation and technological advancements.",
+							"Maintain global leadership in democracy and human rights.",
+							"Strengthen U.S. alliances to face modern threats."
+						]
+					},
+					"china": {
+						"stance": "Stand firm against China’s unfair trade practices.",
+						"additionalStances": [
+							"Protect American interests against China's threats.",
+							"Strengthen economic and security partnerships in the Indo-Pacific."
+						]
+					},
+					"russiaUkraineWar": {
+						"stance": "Support Ukraine against Russian aggression.",
+						"additionalStances": [
+							"Mobilize international response to support Ukraine.",
+							"Strengthen NATO in response to Russian threats.",
+							"Defend democracy in Ukraine."
+						]
+					},
+					"middleEast": {
+						"stance": "Defend U.S. interests in the Middle East.",
+						"additionalStances": [
+							"Protect U.S. forces from Iran-backed groups.",
+							"Strengthen alliances in the Middle East."
+						]
+					},
+					"israelPalestineConflict": {
+						"stance": "Support a two-state solution.",
+						"additionalStances": [
+							"Defend Israel's right to security.",
+							"Ensure Palestinians can achieve freedom, security, and prosperity."
+						]
+					},
+					"gunRegulation": {
+						"stance": "Fight for stronger gun safety laws.",
+						"additionalStances": [
+							"Ban assault weapons and high-capacity magazines.",
+							"Expand background checks and close gun show loopholes.",
+							"Support red flag laws to keep guns out of dangerous hands."
+						]
+					},
+					"healthcare": {
+						"stance": "Make affordable healthcare a right for all Americans.",
+						"additionalStances": [
+							"Expand and strengthen the Affordable Care Act.",
+							"Cap prescription drug costs at $35 for insulin.",
+							"Negotiate lower drug prices for Medicare beneficiaries."
+						]
+					},
+					"medicare": {
+						"stance": "Strengthen Medicare by lowering drug costs.",
+						"additionalStances": [
+							"Cap out-of-pocket costs for seniors at $2,000.",
+							"Accelerate drug price negotiations for Medicare.",
+							"Work with states to cancel medical debt for Americans."
+						]
+					},
+					"immigration": {
+						"stance": "Reform the broken immigration system and secure the border.",
+						"additionalStances": [
+							"Support a bipartisan border security bill.",
+							"Implement strong border security with technology and personnel.",
+							"Provide a pathway to citizenship for immigrants."
+						]
+					},
+					"borderSecurity": {
+						"stance": "Strengthen border security with smart solutions.",
+						"additionalStances": [
+							"Deploy more detection technology to intercept drugs.",
+							"Add 1,500 more border security agents.",
+							"Seize record amounts of fentanyl at the border."
+						]
+					},
+					"opioidsDrugIssues": {
+						"stance": "End the opioid epidemic and tackle fentanyl trafficking.",
+						"additionalStances": [
+							"Support lifesaving drug prevention programs.",
+							"Increase detection technology to intercept fentanyl.",
+							"Make overdose-reversal drugs available over-the-counter."
+						]
+					},
+					"veterans": {
+						"stance": "Care for veterans and their families with expanded benefits.",
+						"additionalStances": [
+							"Invest in mental health and suicide prevention programs for veterans.",
+							"End veteran homelessness.",
+							"Expand economic opportunities for military families."
+						]
 					}
 				},
 				"runningMate": {

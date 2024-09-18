@@ -62,78 +62,247 @@
 					}
 				},
 				"policyPositions": {
-					"immigration": {
-						"stance": "End catch-and-release, restore Remain in Mexico, merit-based system.",
-						"additionalStance": "Secure border and reduce illegal immigration, including deporting criminal aliens and building more border walls."
-					},
 					"abortion": {
-						"stance": "Supports ending Roe v. Wade, states to decide on abortion laws."
-					},
-					"healthcare": {
-						"stance": "Expand healthcare choice, eliminate Obamacare mandate, lower drug prices."
-					},
-					"economy": {
-						"stance": "Lower taxes, reduce regulations, increase wages.",
+						"stance": "End Roe v. Wade, allow states to decide abortion laws.",
 						"additionalStances": [
-							"Opposes cuts to Medicare and Social Security.",
-							"Plans to unleash domestic energy production to control inflation."
-						]
-					},
-					"education": {
-						"stance": "Supports universal school choice, return education control to states.",
-						"additionalStances": [
-							"Supports the right of parents to have a say in school curricula.",
-							"Plans to close the Department of Education in Washington, D.C."
-						]
-					},
-					"foreignPolicy": {
-						"stance": "Pursue peace through strength, focus on economic security as national security.",
-						"additionalStances": [
-							"Restrict Chinese ownership of U.S. infrastructure and critical assets.",
-							"End proxy wars and prioritize peace talks."
-						]
-					},
-					"criminalJustice": {
-						"stance": "Strengthen law enforcement, support law and order.",
-						"additionalStances": [
-							"Increase funding for police, protect qualified immunity for officers."
-						]
-					},
-					"gunRights": {
-						"stance": "Defend the Second Amendment."
-					},
-					"climateChange": {
-						"stance": "Reject Green New Deal, focus on energy independence.",
-						"additionalStances": [
-							"Exit Paris Climate Accord, end subsidies for wind energy, promote domestic oil and gas production."
+							"Abortion laws will be determined by vote or legislation at the state level."
 						]
 					},
 					"administrativeState": {
-						"stance": "Fire rogue bureaucrats, reform federal agencies.",
+						"stance": "Overhaul federal departments, fire rogue bureaucrats, and enforce accountability.",
 						"additionalStances": [
-							"Move federal government jobs outside Washington D.C., crack down on government leaks."
+							"Move federal jobs outside Washington, D.C.",
+							"Ban bureaucrats from taking jobs in industries they regulate.",
+							"Launch crackdown on government leakers and make Inspector General's offices independent."
 						]
 					},
-					"trade": {
-						"stance": "Implement tariffs to reward domestic production, restrict foreign trade practices.",
+					"departmentOfJusticeAndFBI": {
+						"stance": "Fire corrupt actors in National Security and Intelligence apparatus.",
 						"additionalStances": [
-							"Promote reshoring of manufacturing and secure supply chains."
+							"Crack down on government leaks with criminal charges.",
+							"Move more government positions outside Washington, D.C.",
+							"Ban bureaucrats from working in industries they regulate."
+						]
+					},
+					"coronavirusResponse": {
+						"stance": "Stop all COVID mandates and restore medical freedom.",
+						"additionalStances": [
+							"Organized production of ventilators and developed treatments and vaccines."
+						]
+					},
+					"criminalJustice": {
+						"stance": "Restore law and order, support law enforcement, and oppose defunding police.",
+						"additionalStances": [
+							"Increase penalties for assaults on law enforcement.",
+							"Surge federal prosecutors and the National Guard into high-crime areas."
+						]
+					},
+					"policing": {
+						"stance": "Revitalize police departments and increase protections for officers.",
+						"additionalStances": [
+							"Deliver record funding to hire and retrain police officers.",
+							"Strengthen qualified immunity for police officers."
+						]
+					},
+					"indictments": {
+						"stance": "End legal double standards set against Trump and stop election interference.",
+						"additionalStances": [
+							"Defend the First Amendment right to challenge election results.",
+							"Prosecute those who created corruption in the election system."
+						]
+					},
+					"courts": {
+						"stance": "Appoint judges who interpret the Constitution as written and support conservative values.",
+						"additionalStances": [
+							"Appointed three Supreme Court justices who overturned Roe v. Wade."
+						]
+					},
+					"economy": {
+						"stance": "Lower taxes, increase wages, reduce regulations.",
+						"additionalStances": [
+							"Created record low unemployment for minority groups and women.",
+							"Created 9,000 Opportunity Zones to revitalize communities."
+						]
+					},
+					"socialSecurity": {
+						"stance": "Protect Social Security and Medicare, oppose cuts.",
+						"additionalStances": [
+							"Stop Biden's spending spree and ensure hard-working Americans aren’t penalized."
+						]
+					},
+					"taxes": {
+						"stance": "Lower taxes and increase wages for American workers.",
+						"additionalStances": [
+							"Double the child tax credit and cut regulations that hurt job creation."
+						]
+					},
+					"inflation": {
+						"stance": "Unleash energy production and cut regulations to control inflation.",
+						"additionalStances": [
+							"Repeal Biden's tax hikes and return to the economic success of Trump's first term."
+						]
+					},
+					"jobCreation": {
+						"stance": "Create good-paying jobs and support American manufacturing.",
+						"additionalStances": [
+							"Created over 17,000 new factories in the U.S.",
+							"Focus on reshoring manufacturing and strengthening the American economy."
+						]
+					},
+					"education": {
+						"stance": "Close the Department of Education and return control to states.",
+						"additionalStances": [
+							"Focus schools on job preparation and economic success."
+						]
+					},
+					"charterSchoolsAndVouchers": {
+						"stance": "Support universal school choice.",
+						"additionalStances": [
+							"Allow parents to send children to public, private, or religious schools."
+						]
+					},
+					"schoolCurriculums": {
+						"stance": "Support parental rights in school decision-making.",
+						"additionalStances": [
+							"Allow parents to know what their children are being taught and ensure transparency in schools."
+						]
+					},
+					"electionPolicy": {
+						"stance": "Reform election laws to secure integrity and ban ballot harvesting.",
+						"additionalStances": [
+							"Ban private money from local election offices."
+						]
+					},
+					"energyEnvironment": {
+						"stance": "Unleash domestic energy production and end the Green New Deal.",
+						"additionalStances": [
+							"Promote energy security by reducing reliance on foreign energy.",
+							"Eliminate subsidies for wind energy and focus on traditional energy sources."
+						]
+					},
+					"climateChange": {
+						"stance": "Oppose the Paris Climate Accord and Green New Deal.",
+						"additionalStances": [
+							"Focus on energy independence and consumer choice by stopping wind subsidies and unnecessary regulations."
+						]
+					},
+					"energyProduction": {
+						"stance": "Achieve American energy independence.",
+						"additionalStances": [
+							"Expand oil, gas, and clean coal production.",
+							"Approved major pipelines like Keystone XL."
+						]
+					},
+					"esg": {
+						"stance": "Oppose ESG schemes in retirement funds and investments.",
+						"additionalStances": [
+							"Ban ESG requirements to protect retirement savings from radical left agendas."
+						]
+					},
+					"foreignPolicy": {
+						"stance": "Pursue peace through strength and end proxy wars.",
+						"additionalStances": [
+							"Protect American interests and military strength while avoiding unnecessary foreign conflicts."
+						]
+					},
+					"china": {
+						"stance": "Implement restrictions on Chinese ownership of critical U.S. infrastructure.",
+						"additionalStances": [
+							"Create a national reshoring plan to eliminate reliance on China for essential goods."
+						]
+					},
+					"russia": {
+						"stance": "Focus on internal threats and reduce tensions with Russia.",
+						"additionalStances": [
+							"Oppose unnecessary conflict with nuclear-armed Russia."
+						]
+					},
+					"russiaUkraineWar": {
+						"stance": "Call for immediate cessation of hostilities and push for peace.",
+						"additionalStances": [
+							"Focus on achieving peace without delay to avoid global war."
+						]
+					},
+					"israelHamasWar": {
+						"stance": "End the conflict swiftly and restore peace.",
+						"additionalStances": [
+							"Prevent future attacks on Israel by focusing on strong diplomacy."
+						]
+					},
+					"governmentEthics": {
+						"stance": "Dismantle the deep state and restore government by the people.",
+						"additionalStances": [
+							"Impose term limits on Congress and ban insider trading by members of Congress."
+						]
+					},
+					"gunRegulation": {
+						"stance": "Defend the Second Amendment right to bear arms."
+					},
+					"healthcare": {
+						"stance": "Expand healthcare choice and eliminate the Obamacare mandate.",
+						"additionalStances": [
+							"Lower drug prices and increase transparency in healthcare."
+						]
+					},
+					"medicare": {
+						"stance": "Protect Medicare and oppose any cuts.",
+						"additionalStances": [
+							"Ensure no cuts to Medicare to cover Biden's reckless spending."
 						]
 					},
 					"genderIssues": {
-						"stance": "Recognize only male and female genders assigned at birth."
+						"stance": "Recognize only male and female genders assigned at birth.",
+						"additionalStances": [
+							"Ban participation of men in women's sports and protect parental rights in gender-related decisions."
+						]
 					},
-					"veterans": {
-						"stance": "Improve services for veterans, reduce veteran homelessness."
+					"transgenderHealthcare": {
+						"stance": "End all federal promotion of gender transitions at any age.",
+						"additionalStances": [
+							"Ban the use of federal funds for gender transition surgeries and treatments."
+						]
+					},
+					"immigration": {
+						"stance": "End catch-and-release and restore Remain in Mexico.",
+						"additionalStances": [
+							"Create a merit-based immigration system and protect American labor."
+						]
+					},
+					"borderSecurity": {
+						"stance": "Build a secure border and end human trafficking.",
+						"additionalStances": [
+							"Deport criminal aliens and secure the U.S.-Mexico border with a border wall."
+						]
+					},
+					"immigrationEnforcement": {
+						"stance": "End asylum fraud and restore strong immigration enforcement.",
+						"additionalStances": [
+							"Allow National Guard to assist in deporting criminal aliens."
+						]
 					},
 					"infrastructure": {
-						"stance": "Build new 'Freedom Cities', improve parks, beautify public spaces."
+						"stance": "Build new Freedom Cities and beautify public spaces.",
+						"additionalStances": [
+							"Launch a modernization campaign across U.S. cities to improve livability."
+						]
 					},
-					"drugCrisis": {
-						"stance": "Combat opioid crisis, dismantle drug cartels."
+					"opioidsAndDrugIssues": {
+						"stance": "End the opioid crisis and dismantle drug cartels.",
+						"additionalStances": [
+							"Lower overdose deaths by tackling drug trafficking at the border."
+						]
 					},
-					"electionPolicy": {
-						"stance": "Reform election laws to secure integrity, ban ballot harvesting."
+					"trade": {
+						"stance": "Implement tariffs to reward domestic production and secure supply chains.",
+						"additionalStances": [
+							"Ban Chinese ownership of critical U.S. infrastructure and incentivize reshoring manufacturing."
+						]
+					},
+					"veterans": {
+						"stance": "Improve services for veterans and reduce veteran homelessness.",
+						"additionalStances": [
+							"Expand access to mental health services and lower veteran unemployment."
+						]
 					}
 				},
 				"runningMate": {
@@ -2992,14 +3161,343 @@
 			{
 				"id": "3",
 				"name": "Jill Stein",
-				"party": "Green-Rainbow",
-				"pollingPercentage": 5.0
+				"party": "Green",
+				"pollingPercentage": null,
+				"trend": null,
+				"biography": {
+					"birthYear": 1950,
+					"birthPlace": "Chicago, Illinois",
+					"education": [
+						{
+							"school": "Harvard College",
+							"degree": "Magna Cum Laude, Social Relations (Anthropology, Sociology, Psychology)",
+							"graduationYear": 1973
+						},
+						{
+							"school": "Harvard Medical School",
+							"degree": "Doctor of Medicine (M.D.)",
+							"graduationYear": 1979
+						}
+					],
+					"career": {
+						"roles": [
+							{
+								"role": "Physician",
+								"yearsActive": "1979-present"
+							},
+							{
+								"role": "Environmental Activist",
+								"yearsActive": "1998-present"
+							},
+							{
+								"role": "Green Party Presidential Candidate",
+								"yearsActive": "2012, 2016, 2024"
+							},
+							{
+								"role": "Town Meeting Member, Lexington, MA",
+								"yearsActive": "2005-2008"
+							}
+						]
+					}
+				},
+				"previousOffices": {
+					"presidency": {
+						"startYear": null,
+						"endYear": null
+					}
+				},
+				"electionHistory": {
+					"2016": {
+						"opponent": "Donald Trump, Hillary Clinton",
+						"electoralVotes": 0,
+						"opponentElectoralVotes": null
+					},
+					"2020": {
+						"opponent": null,
+						"electoralVotes": null,
+						"opponentElectoralVotes": null
+					}
+				},
+				"policyPositions": {
+					"abortion": {
+						"stance": "Codify Roe v. Wade, ensure full reproductive rights and bodily autonomy for women.",
+						"additionalStances": ["Repeal the Hyde Amendment."]
+					},
+					"administrativeState": {
+						"stance": null,
+						"additionalStances": null
+					},
+					"departmentOfJusticeAndFBI": {
+						"stance": null,
+						"additionalStances": null
+					},
+					"coronavirusResponse": {
+						"stance": null,
+						"additionalStances": null
+					},
+					"criminalJustice": {
+						"stance": "End mass incarceration, police brutality, and systemic injustice.",
+						"additionalStances": [
+							"Guarantee restorative criminal justice as a human right.",
+							"Treat people in U.S. prisons with respect and dignity."
+						]
+					},
+					"policing": {
+						"stance": null,
+						"additionalStances": null
+					},
+					"indictments": {
+						"stance": null,
+						"additionalStances": null
+					},
+					"courts": {
+						"stance": null,
+						"additionalStances": null
+					},
+					"economy": {
+						"stance": "Establish an Economic Bill of Rights to secure basic needs for all Americans.",
+						"additionalStances": [
+							"Guarantee rights to housing, healthcare, education, and livable income."
+						]
+					},
+					"socialSecurity": {
+						"stance": null,
+						"additionalStances": null
+					},
+					"taxes": {
+						"stance": null,
+						"additionalStances": null
+					},
+					"inflation": {
+						"stance": null,
+						"additionalStances": null
+					},
+					"jobCreation": {
+						"stance": null,
+						"additionalStances": null
+					},
+					"education": {
+						"stance": "Guarantee lifelong free public education for all institutions of learning.",
+						"additionalStances": [
+							"Abolish student debt for 43 million Americans.",
+							"End the privatization of public schools.",
+							"Increase and equalize public school funding."
+						]
+					},
+					"charterSchoolsAndVouchers": {
+						"stance": null,
+						"additionalStances": null
+					},
+					"schoolCurriculums": {
+						"stance": null,
+						"additionalStances": null
+					},
+					"electionPolicy": {
+						"stance": "Replace the two-corporate-party system with an inclusive multi-party democracy.",
+						"additionalStances": [
+							"Implement ranked-choice voting and proportional representation.",
+							"Institute full public financing of elections.",
+							"Abolish the Electoral College and use a national popular vote with ranked-choice voting."
+						]
+					},
+					"energyEnvironment": {
+						"stance": "Declare a climate emergency and enact a real Green New Deal.",
+						"additionalStances": [
+							"Transition off fossil fuels by 2035.",
+							"Create union jobs in sustainable industries.",
+							"Ensure environmental justice for affected communities."
+						]
+					},
+					"climateChange": {
+						"stance": null,
+						"additionalStances": null
+					},
+					"energyProduction": {
+						"stance": null,
+						"additionalStances": null
+					},
+					"esg": {
+						"stance": null,
+						"additionalStances": null
+					},
+					"foreignPolicy": {
+						"stance": "End U.S. militarism and the bipartisan endless war machine.",
+						"additionalStances": [
+							"Replace militarism with diplomacy, international law, and human rights.",
+							"Reduce the Pentagon budget and reinvest in domestic needs."
+						]
+					},
+					"china": {
+						"stance": null,
+						"additionalStances": null
+					},
+					"russia": {
+						"stance": null,
+						"additionalStances": null
+					},
+					"russiaUkraineWar": {
+						"stance": null,
+						"additionalStances": null
+					},
+					"israelHamasWar": {
+						"stance": null,
+						"additionalStances": null
+					},
+					"governmentEthics": {
+						"stance": "Revive democracy with reforms to empower the people.",
+						"additionalStances": [
+							"End the oligarchy run by corporate elites.",
+							"Return decision-making power to the people."
+						]
+					},
+					"gunRegulation": {
+						"stance": "End the epidemic of gun violence with common-sense gun safety laws.",
+						"additionalStances": [
+							"Ban the sale of assault rifles and establish a buyback program.",
+							"Require background checks and waiting periods for firearm purchases."
+						]
+					},
+					"healthcare": {
+						"stance": "Establish a universal healthcare system that is free and accessible to all.",
+						"additionalStances": [
+							"Healthcare is a human right.",
+							"End out-of-pocket costs for healthcare services."
+						]
+					},
+					"medicare": {
+						"stance": null,
+						"additionalStances": null
+					},
+					"genderIssues": {
+						"stance": "Guarantee the human rights of the 2SLGBTQIA+ community.",
+						"additionalStances": [
+							"End violence against transgender women, particularly women of color."
+						]
+					},
+					"transgenderHealthcare": {
+						"stance": null,
+						"additionalStances": null
+					},
+					"immigration": {
+						"stance": "Overhaul the broken immigration system and create a dignified path to citizenship.",
+						"additionalStances": [
+							"Move away from detention and enforcement to humane asylum processing.",
+							"Create non-custodial, humanitarian reception centers at the border."
+						]
+					},
+					"borderSecurity": {
+						"stance": null,
+						"additionalStances": null
+					},
+					"immigrationEnforcement": {
+						"stance": null,
+						"additionalStances": null
+					},
+					"infrastructure": {
+						"stance": "Guarantee affordable, efficient utilities through public ownership.",
+						"additionalStances": [
+							"Provide free high-speed internet across the U.S. via fiber optics."
+						]
+					},
+					"opioidsAndDrugIssues": {
+						"stance": "Decriminalize personal possession of hard drugs.",
+						"additionalStances": [
+							"Treat drug misuse as a health issue, not a criminal issue."
+						]
+					},
+					"trade": {
+						"stance": "Replace corporate trade agreements with global fair trade agreements.",
+						"additionalStances": []
+					},
+					"veterans": {
+						"stance": "Fully fund veterans’ programs and benefits for healthcare, mental health, housing, and job training.",
+						"additionalStances": [
+							"Support veterans’ transition to civilian life."
+						]
+					}
+				},
+				"runningMate": {
+					"name": "Butch Ware",
+					"position": null,
+					"announcementDate": "2024-08-16"
+				},
+				"endorsements": {
+					"totalEndorsements": null,
+					"endorsements": []
+				},
+				"campaignFinance": {
+					"candidate": "Jill Stein",
+					"party": "Green",
+					"committees": [
+						{
+							"name": "JILL STEIN FOR PRESIDENT 2024",
+							"id": "C00856112",
+							"coverage": {
+								"startDate": "01/01/2021",
+								"endDate": "07/31/2024"
+							}
+						},
+						{
+							"name": "JILL STEIN FOR PRESIDENT",
+							"id": "C00581199",
+							"coverage": {
+								"startDate": "01/01/2021",
+								"endDate": "07/31/2024"
+							}
+						}
+					],
+					"totalRaised": {
+						"receipts": 1795169.04,
+						"contributions": {
+							"total": 1661434.6,
+							"individual": {
+								"total": 1643248.6,
+								"itemized": 1597624.0,
+								"unitemized": 45624.0
+							},
+							"partyCommittee": 3200.0,
+							"otherCommittee": 3836.0,
+							"candidate": 11150.0,
+							"transfersFromOtherCommittees": 0.0
+						},
+						"loansReceived": 3010.0,
+						"offsetsToExpenditures": {
+							"total": 28778.83,
+							"operating": 28721.7,
+							"fundraising": 57.13,
+							"legalAndAccounting": 0.0
+						},
+						"otherReceipts": 101945.61
+					},
+					"totalSpent": {
+						"disbursements": 1698009.96,
+						"operatingExpenditures": 1687921.2,
+						"transfersToOtherCommittees": 0.0,
+						"fundraising": 0.0,
+						"loanRepayments": {
+							"total": 0.0,
+							"candidateLoans": 0.0,
+							"otherLoans": 0.0
+						},
+						"contributionRefunds": {
+							"total": 10088.76,
+							"individual": 10088.76,
+							"politicalParty": 0.0,
+							"otherCommittees": 0.0
+						},
+						"otherDisbursements": 0.0
+					},
+					"cashSummary": {
+						"endingCashOnHand": 140286.12,
+						"debtsLoansOwedToCommittee": 0.0,
+						"debtsLoansOwedByCommittee": 43010.0
+					}
+				}
 			},
 			{
 				"id": "4",
 				"name": "Chase Oliver",
-				"party": "Libertarian",
-				"pollingPercentage": 0.0
+				"party": "Libertarian"
 			}
 		],
 		"lastUpdated": "2024-08-30T12:00:00Z"

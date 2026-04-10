@@ -4,8 +4,8 @@ const HOME_META_DATA: PageMetaData[] = [
 		name: 'viewport',
 		content: 'width=device-width, initial-scale=1.0, maximum-scale=1.0',
 	},
-	{ title: 'ApplyWiser' },
-	{ name: 'description', content: 'AI for resume tailoring' },
+	{ title: 'Notifi' },
+	{ name: 'description', content: 'View sports data ' },
 	{
 		name: 'keywords',
 		content:
